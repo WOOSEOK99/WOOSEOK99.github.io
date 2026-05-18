@@ -1,8 +1,4 @@
-# 📦 Travel Canvas - Play Store 등록 정보 정리
-
-앱 출시를 위해 필요한 주요 항목들을 정리해 드립니다. 이 내용을 복사하여 스토어 등록 정보 및 GitHub Repository에 활용하세요!
-
----
+# 📦 Travel Canvas
 
 ## 1. 📝 앱 이름 및 간단한 설명
 * **앱 이름**: Travel Canvas (트래블 캔버스)
