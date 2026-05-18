@@ -20,9 +20,8 @@
 
 **1. 전 세계 어디든 '한글'로 검색하세요**
 * 외국 장소도 한글로 검색하면 척척! 스마트한 자동 번역 시스템이 글로벌 POI 데이터를 찾아 한글로 보여줍니다. (Photon & Google Translate API 기반)
-<br>
 <p align="center">
-  <img src="10.jpg" alt="장소 검색 및 구글지도로 위치 검색" width="400px">
+  <img src="search1.png" alt="장소검색" width="350px"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="search2.png" alt="구글맵연동" width="350px">
 </p>
 
 
