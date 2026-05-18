@@ -35,9 +35,8 @@
 
 **3. 한눈에 보는 동선 지도 (Premium)**
 * 내가 갈 곳들이 지도 위에 어떻게 연결되는지 확인하세요. 지점 간의 거리와 전체 이동 경로를 직관적으로 파악할 수 있습니다.
-<br>
 <p align="center">
-  <img src="4.png" alt="기능 3 - 지도 동선 및 경로 확인" width="400px">
+  <img src="dong1.jpg" alt="동선" width="350px"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="dong2.png" alt="한눈에보는 동선" width="350px">
 </p>
 
 
