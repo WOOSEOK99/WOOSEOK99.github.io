@@ -1,19 +1,8 @@
-# 📦 Travel Canvas - Play Store 등록 정보 정리
-
-앱 출시를 위해 필요한 주요 항목들을 정리해 드립니다. 이 내용을 복사하여 스토어 등록 정보 및 GitHub Repository에 활용하세요!
-
----
 
 ## 1. 📝 앱 이름 및 간단한 설명
 * **앱 이름**: Travel Canvas (트래블 캔버스)
 * **간단한 설명**: 전 세계 어디든 한글로 계획하고, 나만의 특별한 여행 코스를 기록하는 스마트한 여행 플래너!
-
----
-
-## 🎨 메인 그래픽 이미지
 ![Travel Canvas 대문 그림](GraphicImage1.png)
-
----
 
 ## 2. 📖 앱 상세 설명 (Full Description)
 
