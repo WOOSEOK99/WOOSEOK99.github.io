@@ -21,31 +21,41 @@
 **1. 전 세계 어디든 '한글'로 검색하세요**
 * 외국 장소도 한글로 검색하면 척척! 스마트한 자동 번역 시스템이 글로벌 POI 데이터를 찾아 한글로 보여줍니다. (Photon & Google Translate API 기반)
 <br>
-<img src="10.jpg" alt="장소 검색 및 구글지도로 위치 검색" width="50%" height="50%">
+<p align="center">
+  <img src="10.jpg" alt="장소 검색 및 구글지도로 위치 검색" width="400px">
+</p>
 
 
 **2. 똑똑한 자동 시간 체이닝**
 * 체류 시간만 입력하세요. 다음 일정의 도착 시간을 앱이 알아서 계산해 드립니다. 일정 변경 시 전체 타임라인이 자동으로 업데이트되어 계획이 훨씬 쉬워집니다.
-| 일정 입력 및 시간 설정 | 자동 연동된 타임라인 화면 |
-| :---: | :---: |
-| <img src="2.png" width="100%"> | <img src="3.png" width="100%"> |
+
+<p align="center">
+  <img src="2.png" alt="일정 입력 및 시간 설정" width="350px"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="3.png" alt="자동 연동된 타임라인 화면" width="350px">
+</p>
+
 
 **3. 한눈에 보는 동선 지도 (Premium)**
 * 내가 갈 곳들이 지도 위에 어떻게 연결되는지 확인하세요. 지점 간의 거리와 전체 이동 경로를 직관적으로 파악할 수 있습니다.
 <br>
-<img src="4.png" alt="기능 3 - 지도 동선 및 경로 확인" width="50%">
+<p align="center">
+  <img src="4.png" alt="기능 3 - 지도 동선 및 경로 확인" width="400px">
+</p>
 
 
 **4. 꼼꼼한 경비 및 체크리스트 관리**
 * 화폐 단위별 간이 가계부와 짐 싸기 체크리스트 기능을 통해 여행 준비부터 실전까지 빈틈없이 챙길 수 있습니다.
-| 가계부 및 비용 관리 | 짐 싸기 체크리스트 |
-| :---: | :---: |
-| <img src="7.png" width="100%"> | <img src="6.png" width="100%"> |
+
+<p align="center">
+  <img src="7.png" alt="가계부 및 비용 관리" width="350px"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="6.png" alt="짐 싸기 체크리스트" width="350px">
+</p>
+
 
 **5. AI 후기 생성 및 나만의 여행 캔버스**
 * 추억이 담긴 메모와 사진을 바탕으로 AI가 멋진 여행 후기를 요약해 드립니다. 완성된 일정표는 이미지로 저장해 친구들에게 공유할 수 있습니다.
 <br>
-<img src="5.png" alt="기능 5 - AI 후기 요약 및 공유 기능" width="50%">
+<p align="center">
+  <img src="5.png" alt="기능 5 - AI 후기 요약 및 공유 기능" width="400px">
+</p>
 
 ---
 
