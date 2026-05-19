@@ -47,21 +47,31 @@
   <img src="7.png" alt="가계부 및 비용 관리" width="350px"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="6.png" alt="짐 싸기 체크리스트" width="350px">
 </p>
 
+**5. 사진 자동 매칭**
+* 여행 중 찍었던 사진을 불러오면, 여행 계획에 맞춰 자동으로 매칭을 시켜줍니다.
+* 공유하기 기능을 통해 ZIP파일로 여행 일정별 폴더로 자동 분류되서 내려 받을수 있습니다.
+
+<p align="center">
+  <img src="9.png" alt="여행 일정별 사진 자동 매칭" width="350px">
+</p>
+
 **5. 기록 공융 (이미지, 데이터, 기록백업, 사진 공유)**
 * 열심히 작성한 여행 계획을 이미지로 간단하게 공유하거나, 데이터로 공유하여 "기록가져오기"기능을 통해 일행이 일정을 수정하고 다시 공유할수 있습니다.
 * 기본적으로 자동 백업이 되지만, 그래도 불안하니 직접 기기로 파일로 백업을 하여 이중 안전 장치를 만들었습니다.
 * 여행 일정별 자동 분류된 사진을 간단하게 폴더별로 정리하여 ZIP파일로 내려 받을수 있습니다.
 
 <p align="center">
-  <img src="1.png" alt="사진 공유(여행 일정별 자동 분류)" width="350px"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="pr2.jpg" alt="기록 공유" width="350px">
+  <img src="share_picture.png" alt="사진 공유(여행 일정별 자동 분류)" width="350px"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="pr2.jpg" alt="기록 공유" width="350px">
 </p>
 
 **6. AI 후기 생성 및 나만의 여행 캔버스 (Premium)**
 * 추억이 담긴 메모와 사진을 바탕으로 AI가 멋진 여행 후기를 요약해 드립니다. 완성된 일정표는 이미지로 저장해 친구들에게 공유할 수 있습니다.
 <p align="center">
-  <img src="pr1.jpg" alt="여행후기 자동 정리" width="350px"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="pr2.jpg" alt="짐 싸기 체크리스트" width="350px">
+  <img src="pr1.jpg" alt="여행후기 자동 정리" width="350px"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="pr3.jpg" alt="여행후기 PDF파일로 저장" width="350px">
 </p>
-
+<p align="center">
+  <img src="pr4.jpg" alt="여행후기 편집가능항 DOCX 파일로 저장" width="350px">
+</p>
 ---
 
 ## 3. 👑 프리미엄 혜택 (Premium Membership)
