@@ -67,10 +67,10 @@
 **6. AI 후기 생성 및 나만의 여행 캔버스 (Premium)**
 * 추억이 담긴 메모와 사진을 바탕으로 AI가 멋진 여행 후기를 요약해 드립니다. 완성된 일정표는 이미지로 저장해 친구들에게 공유할 수 있습니다.
 <p align="center">
-  <img src="pr1.jpg" alt="여행후기 자동 정리" width="350px"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="pr3.jpg" alt="여행후기 PDF파일로 저장" width="350px">
+  <img src="pr1.jpg" alt="여행후기 자동 정리" width="350px"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="pr3.png" alt="여행후기 PDF파일로 저장" width="350px">
 </p>
 <p align="center">
-  <img src="pr4.jpg" alt="여행후기 편집가능항 DOCX 파일로 저장" width="350px">
+  <img src="pr4.png" alt="여행후기 편집가능항 DOCX 파일로 저장" width="350px">
 </p>
 ---
 
