@@ -36,7 +36,7 @@
 **3. 한눈에 보는 동선 지도 (Premium)**
 * 내가 갈 곳들이 지도 위에 어떻게 연결되는지 확인하세요. 지점 간의 거리와 전체 이동 경로를 직관적으로 파악할 수 있습니다.
 <p align="center">
-  <img src="dong1.jpg" alt="동선" width="350px"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="dong2.png" alt="한눈에보는 동선" width="350px">
+  <img src="dong1.jpg" alt="동선" width="350px"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="dong2.jpg" alt="한눈에보는 동선" width="350px">
 </p>
 
 
@@ -47,12 +47,19 @@
   <img src="7.png" alt="가계부 및 비용 관리" width="350px"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="6.png" alt="짐 싸기 체크리스트" width="350px">
 </p>
 
+**5. 기록 공융 (이미지, 데이터, 기록백업, 사진 공유)**
+* 열심히 작성한 여행 계획을 이미지로 간단하게 공유하거나, 데이터로 공유하여 "기록가져오기"기능을 통해 일행이 일정을 수정하고 다시 공유할수 있습니다.
+* 기본적으로 자동 백업이 되지만, 그래도 불안하니 직접 기기로 파일로 백업을 하여 이중 안전 장치를 만들었습니다.
+* 여행 일정별 자동 분류된 사진을 간단하게 폴더별로 정리하여 ZIP파일로 내려 받을수 있습니다.
 
-**5. AI 후기 생성 및 나만의 여행 캔버스**
-* 추억이 담긴 메모와 사진을 바탕으로 AI가 멋진 여행 후기를 요약해 드립니다. 완성된 일정표는 이미지로 저장해 친구들에게 공유할 수 있습니다.
-<br>
 <p align="center">
-  <img src="5.png" alt="기능 5 - AI 후기 요약 및 공유 기능" width="400px">
+  <img src="1.png" alt="사진 공유(여행 일정별 자동 분류)" width="350px"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="pr2.jpg" alt="기록 공유" width="350px">
+</p>
+
+**6. AI 후기 생성 및 나만의 여행 캔버스 (Premium)**
+* 추억이 담긴 메모와 사진을 바탕으로 AI가 멋진 여행 후기를 요약해 드립니다. 완성된 일정표는 이미지로 저장해 친구들에게 공유할 수 있습니다.
+<p align="center">
+  <img src="pr1.jpg" alt="여행후기 자동 정리" width="350px"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="pr2.jpg" alt="짐 싸기 체크리스트" width="350px">
 </p>
 
 ---
