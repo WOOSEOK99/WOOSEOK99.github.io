@@ -1,6 +1,6 @@
 # 🏆 프로 오목 (Pro Omok) - Official Showcase
 
-![프로 오목 대표 그래픽 이미지](https://images.unsplash.com/photo-1611195974226-a6a9be9dd763?auto=format&fit=crop&w=1024&h=500&q=80)
+![프로 오목 대표 그래픽 이미지](screen.png)
 
 > **"가장 단순하지만 가장 깊이 있는 두뇌 싸움"**
 > 정통 렌주룰을 탑재한 스타일리시 모바일 오목 게임, **'프로 오목'**에 오신 것을 환영합니다!
@@ -20,10 +20,10 @@
     <td width="25%" align="center" style="border: none; padding: 8px;"><b>🎉 짜릿한 승리!</b></td>
   </tr>
   <tr style="border: none;">
-    <td style="border: none; padding: 5px;"><img src="https://images.unsplash.com/photo-1606167668584-78701c57f13d?auto=format&fit=crop&w=360&h=780&q=80" alt="메인 로비 화면" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></td>
-    <td style="border: none; padding: 5px;"><img src="https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?auto=format&fit=crop&w=360&h=780&q=80" alt="AI 대전 화면" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></td>
-    <td style="border: none; padding: 5px;"><img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=360&h=780&q=80" alt="듀얼 대전 화면" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></td>
-    <td style="border: none; padding: 5px;"><img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=360&h=780&q=80" alt="승리 연출 화면" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></td>
+    <td style="border: none; padding: 5px;"><img src="1.jpg" alt="메인 로비 화면" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></td>
+    <td style="border: none; padding: 5px;"><img src="2.jpg" alt="AI 대전 화면" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></td>
+    <td style="border: none; padding: 5px;"><img src="3.jpg" alt="듀얼 대전 화면" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></td>
+    <td style="border: none; padding: 5px;"><img src="4.jpg" alt="승리 연출 화면" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></td>
   </tr>
   <tr style="border: none;">
     <td align="center" style="border: none; font-size: 0.9em; color: #555; padding-top: 8px;">광고 없는 쾌적한 시작<br><b>번거로운 가입 없이 즉시 구동</b></td>
