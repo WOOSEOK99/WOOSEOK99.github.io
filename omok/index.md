@@ -21,8 +21,8 @@
   </tr>
   <tr style="border: none;">
     <td style="border: none; padding: 5px;"><img src="1.jpg" alt="메인 로비 화면" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></td>
-    <td style="border: none; padding: 5px;"><img src="2.jpg" alt="AI 대전 화면" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></td>
-    <td style="border: none; padding: 5px;"><img src="3.jpg" alt="듀얼 대전 화면" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></td>
+    <td style="border: none; padding: 5px;"><img src="3.jpg" alt="AI 대전 화면" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></td>
+    <td style="border: none; padding: 5px;"><img src="2.jpg" alt="듀얼 대전 화면" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></td>
     <td style="border: none; padding: 5px;"><img src="4.jpg" alt="승리 연출 화면" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></td>
   </tr>
   <tr style="border: none;">
