@@ -41,10 +41,10 @@
   </tr>
   <tr style="border: none;">
     <td style="border: none; padding: 5px;">
-      <img src="2.jpg" alt="메인 로비 화면" width="50%" height="50%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <img src="2.jpg" width="50%" height="50%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </td>
     <td style="border: none; padding: 5px;">
-      <img src="3.jpg" alt="AI 대전 화면" width="50%" height="50&" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <img src="3.jpg" width="50%" height="50%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </td>
   </tr>
 </table>
