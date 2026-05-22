@@ -58,6 +58,27 @@
   </tr>
 </table>
 
+<table width="100%" style="border-collapse: collapse; border: none;">
+  <tr style="border: none;">
+    <td width="50%" align="center" style="border: none; padding: 10px;"><b>공략보기</b></td>
+    <td width="50%" align="center" style="border: none; padding: 10px;"><b>게임저장및 불러오기</b></td>
+    
+  </tr>
+  <tr style="border: none;">
+    <td style="border: none; padding: 5px;">
+      <img src="6.jpg" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    </td>
+    <td style="border: none; padding: 5px;">
+      <img src="7.jpg" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    </td>   
+  </tr>
+</table>
+
+<div align="center">
+  <img src="10.png" width="80%" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <p style="color: #666; font-size: 0.95em; margin-top: 8px;">최대 4인용까지 함께(조이스틱 연결시)</p>
+</div>
+
 ---
 
 ## 다운로드 링크
