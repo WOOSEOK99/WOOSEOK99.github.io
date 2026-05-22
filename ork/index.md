@@ -44,16 +44,16 @@
   </tr>
   <tr style="border: none;">
     <td style="border: none; padding: 5px;">
-      <img src="2.jpg" width="25%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <img src="2.jpg" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </td>
     <td style="border: none; padding: 5px;">
-      <img src="3.jpg" width="25%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <img src="3.jpg" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </td>
      <td style="border: none; padding: 5px;">
-      <img src="8.jpg" width="25%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <img src="8.jpg" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </td>
      <td style="border: none; padding: 5px;">
-      <img src="9.jpg" width="25%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <img src="9.jpg" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </td>
   </tr>
 </table>
