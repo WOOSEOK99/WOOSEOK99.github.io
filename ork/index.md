@@ -22,7 +22,7 @@
 > 추억의 게임들을 가장 세련되게 즐기는 방법, 지금 바로 **'오락실 게임'** 앱과 함께 시작해 보세요! 관련 문의나 피드백은 언제든 환영입니다."
 
 ---
-### 🎮 기능 소개 (4개 나란히 배치)
+### 🎮 기능 소개
 <table width="100%" style="border-collapse: collapse; border: none;">
   <tr style="border: none;">
     <td width="25%" align="center" style="border: none; padding: 10px;"><b>게임목록 카드형</b></td>
@@ -85,7 +85,7 @@
 기본값으로 사용해보시고 그래도 씹힌다면 값을 조금씩 조정해 보시길 바랍니다.
 
 <div align="center">
-  <img src="11.jpg" width="80%" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <img src="11.jpg" width="50%" height="50%" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
   <p style="color: #666; font-size: 0.95em; margin-top: 8px;">설정 -> 고급설정 -> 오동작 방지 설정</p>
 </div>
 
