@@ -27,7 +27,7 @@
 
 ### 📱 대표 화면 (1개 단독 배치)
 <div align="center">
-  <img src="https://postfiles.pstatic.net/MjAyNjA1MDRfMTgw/MDAxNzc3ODg1MDMyNTgy.Wl6gLvV0bRgRoqRxBATht7B4GHCwkBibWFufHKub0GEg.dSu_LxYyvRytBKrGqRAVtMTbkRIx0KxoTeVglmKIyKYg.PNG/Gemini_Generated_Image_wo49crwo49crwo49.png?type=w2" alt="메인 대표 이미지" width="80%" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <img src="1.png" alt="메인 대표 이미지" width="80%" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
   <p style="color: #666; font-size: 0.95em; margin-top: 8px;">추억의 게임을 직관적인 UI로 한눈에 관리하는 메인 런처 화면</p>
 </div>
 
@@ -36,48 +36,15 @@
 ### 🎮 기능 소개 (2개 나란히 배치)
 <table width="100%" style="border-collapse: collapse; border: none;">
   <tr style="border: none;">
-    <td width="50%" align="center" style="border: none; padding: 10px;"><b>✨ 깔끔한 로비</b></td>
-    <td width="50%" align="center" style="border: none; padding: 10px;"><b>🤖 스마트 AI 대전</b></td>
+    <td width="50%" align="center" style="border: none; padding: 10px;"><b>✨ 게임목록 카드형</b></td>
+    <td width="50%" align="center" style="border: none; padding: 10px;"><b>🤖 게임목록 리스트형</b></td>
   </tr>
   <tr style="border: none;">
     <td style="border: none; padding: 5px;">
-      <img src="https://postfiles.pstatic.net/MjAyNjA1MDRfNjMg/MDAxNzc3ODg0NDMzMDMz.Jd8KCzb9qdaI4hYH74vhNCgdpqd9FhDHGRS0O3oFXiAg.aMQpT4OQRaDiLl_qnecWXUA7UBpZLCJ8IzTUfB3dR4wg.JPEG/1.jpg?type=w2" alt="메인 로비 화면" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <img src="2.jpg" alt="메인 로비 화면" width="50%" height="50%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </td>
     <td style="border: none; padding: 5px;">
-      <img src="https://postfiles.pstatic.net/MjAyNjA1MDRfMzAg/MDAxNzc3ODg0NDMyODU5.-HzVMX0qSXr6mAumxVBGjGvECs4FK4lFVbjl_sHUHRQg.fUKwcYUBRul65FR4i9iKNO3hq6ad9UX0TvgtnB0Sywcg.JPEG/2.jpg?type=w2" alt="AI 대전 화면" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    </td>
-  </tr>
-  <tr style="border: none;">
-    <td align="center" style="border: none; font-size: 0.9em; color: #555; padding-top: 8px; vertical-align: top;">
-      광고 없는 쾌적한 시작<br><b>번거로운 가입 없이 즉시 구동</b>
-    </td>
-    <td align="center" style="border: none; font-size: 0.9em; color: #555; padding-top: 8px; vertical-align: top;">
-      단판으로 끝나지 않는 재미<br><b>Lv.1 입문자 승급 도전</b>
-    </td>
-  </tr>
-</table>
-
-<br>
-
-<table width="100%" style="border-collapse: collapse; border: none;">
-  <tr style="border: none;">
-    <td width="50%" align="center" style="border: none; padding: 10px;"><b>👥 오프라인 2인용</b></td>
-    <td width="50%" align="center" style="border: none; padding: 10px;"><b>🎉 짜릿한 승리!</b></td>
-  </tr>
-  <tr style="border: none;">
-    <td style="border: none; padding: 5px;">
-      <img src="https://postfiles.pstatic.net/MjAyNjA1MDRfNjYy/MDAxNzc3ODg0NDMzMDQ5.3oNBRDH6Qvfx2AjS2p4KONvEa-0TNdF4n-DL_q8JeQog.Udkw_p7q6S5Ua0MAWUmNK1laNc83tAR3wMlDx-Ai4f8g.JPEG/4.jpg?type=w2" alt="듀얼 대전 화면" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    </td>
-    <td style="border: none; padding: 5px;">
-      <img src="https://postfiles.pstatic.net/MjAyNjA1MDRfMjgg/MDAxNzc3ODg0NDMyOTM5.__WBC4PUOOmxO6bkjEMjvQ5uE1QQVDCJrVriYmEI4JUg.X7-szuT9Vg7Ee_gpAPJG136g8LWCt88or0sAQ3jt8j0g.JPEG/5.jpg?type=w2" alt="승리 연출 화면" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    </td>
-  </tr>
-  <tr style="border: none;">
-    <td align="center" style="border: none; font-size: 0.9em; color: #555; padding-top: 8px; vertical-align: top;">
-      터치 실수 방지<br><b>안전한 '착수 확인' 시스템</b>
-    </td>
-    <td align="center" style="border: none; font-size: 0.9em; color: #555; padding-top: 8px; vertical-align: top;">
-      치열한 수 싸움의 결실<br><b>무르기 및 짜릿한 연승 통계</b>
+      <img src="3.jpg" alt="AI 대전 화면" width="50%" height="50&" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </td>
   </tr>
 </table>
