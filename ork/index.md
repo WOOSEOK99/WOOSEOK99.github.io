@@ -36,24 +36,24 @@
 ### 🎮 기능 소개 (4개 나란히 배치)
 <table width="100%" style="border-collapse: collapse; border: none;">
   <tr style="border: none;">
-    <td width="50%" align="center" style="border: none; padding: 10px;"><b>게임목록 카드형</b></td>
-    <td width="50%" align="center" style="border: none; padding: 10px;"><b>게임목록 리스트형</b></td>
-    <td width="50%" align="center" style="border: none; padding: 10px;"><b>치트</b></td>
-    <td width="50%" align="center" style="border: none; padding: 10px;"><b>자동연사</b></td>
+    <td width="25%" align="center" style="border: none; padding: 10px;"><b>게임목록 카드형</b></td>
+    <td width="25%" align="center" style="border: none; padding: 10px;"><b>게임목록 리스트형</b></td>
+    <td width="25%" align="center" style="border: none; padding: 10px;"><b>치트</b></td>
+    <td width="25%" align="center" style="border: none; padding: 10px;"><b>자동연사</b></td>
     
   </tr>
   <tr style="border: none;">
     <td style="border: none; padding: 5px;">
-      <img src="2.jpg" width="50%" height="50%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <img src="2.jpg" width="25%" height="50%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </td>
     <td style="border: none; padding: 5px;">
-      <img src="3.jpg" width="50%" height="50%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <img src="3.jpg" width="25%" height="50%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </td>
      <td style="border: none; padding: 5px;">
-      <img src="8.jpg" width="50%" height="50%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <img src="8.jpg" width="25%" height="50%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </td>
      <td style="border: none; padding: 5px;">
-      <img src="9.jpg" width="50%" height="50%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <img src="9.jpg" width="25%" height="50%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </td>
   </tr>
 </table>
