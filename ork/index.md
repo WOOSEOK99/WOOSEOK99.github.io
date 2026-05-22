@@ -85,7 +85,7 @@
 기본값으로 사용해보시고 그래도 씹힌다면 값을 조금씩 조정해 보시길 바랍니다.
 
 <div align="center">
-  <img src="11.jpg" width="50%" height="50%" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <img src="11.jpg" width="30%" height="30%" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
   <p style="color: #666; font-size: 0.95em; margin-top: 8px;">설정 -> 고급설정 -> 오동작 방지 설정</p>
 </div>
 
