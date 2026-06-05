@@ -1,7 +1,6 @@
 # 오락실 게임 - 추억의 고전 게임을 스마트하게 즐기는 방법
 <div align="center">
   <img src="1.png" alt="메인 대표 이미지" width="80%" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-  <p style="color: #666; font-size: 0.95em; margin-top: 8px;">추억의 게임을 직관적인 UI로 한눈에 관리하는 메인 런처 화면</p>
 </div>
 "어릴 적 오락실에서 즐기던 고전 게임들, 막상 스마트폰이나 PC로 하려니 설정도 복잡하고 게임 찾기도 힘드셨죠? 그런 불편함을 한 번에 해결하기 위해 제가 직접 개발한 **'오락실 게임'** 앱을 소개합니다."
 
