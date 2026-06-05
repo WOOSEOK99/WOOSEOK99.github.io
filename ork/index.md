@@ -79,6 +79,8 @@
 ---
 📱 버튼 배열 수정 방법
 
+> 해당 게임을 길게 누르면 아래 그림처럼 메뉴가 나옵니다.
+
 <table width="100%" style="border-collapse: collapse; border: none;">
   <tr style="border: none;">
     <td style="border: none; padding: 5px;">
@@ -93,4 +95,12 @@
   </tr>
 </table>
 
+📱 게임 삭제 방법
 
+<table width="100%" style="border-collapse: collapse; border: none;">
+  <tr style="border: none;">
+    <td style="border: none; padding: 5px;">
+      <img src="Game_del.jpg" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    </td>
+  </tr>
+</table>
