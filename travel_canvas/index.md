@@ -84,5 +84,5 @@
 
 ## 📞 개발자 연락처 & 지원
 * **개발자**: travelcanvas
-* **이메일**: contact-travelcanvas@naver.com
+* **이메일**: kazewa00@gmail.com
 * **개인정보처리방침**: [앱 내 정보 페이지 참조]
