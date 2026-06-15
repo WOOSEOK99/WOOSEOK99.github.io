@@ -82,7 +82,7 @@
 
 ---
 
-### 📥 프로그램 다운로드
+### 📥 윈도우버전 프로그램 다운로드
 * [Travel Canvas Windows 버전 다운로드](https://github.com/WOOSEOK99/WOOSEOK99.github.io/raw/main/travel_canvas/Travel_Canvas_Windows.zip)
 
 ---
