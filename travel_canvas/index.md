@@ -82,6 +82,8 @@
 
 ---
 
+[Travel Canvas Windows 버전 다운로드](https://github.com/WOOSEOK99/WOOSEOK99.github.io/raw/main/travel_canvas/Travel_Canvas_Windows.zip)
+
 ## 📞 개발자 연락처 & 지원
 * **개발자**: travelcanvas
 * **이메일**: kazewa00@gmail.com
