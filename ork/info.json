@@ -1,16 +1,13 @@
-[
-  {
-    "title": {
-      "ko": "앱 소개",
-      "en": "About App"
+{
+  "updated_at": "20260626",
+  "links": [
+    {
+      "title": { "ko": "앱 소개", "en": "About App" },
+      "url": "https://wooseok99.github.io/ork/"
     },
-    "url": "https://wooseok99.github.io/ork/"
-  },
-  {
-    "title": {
-      "ko": "커스텀 버튼 사용설명서",
-      "en": "Custom Button Manual"
-    },
-    "url": "https://wooseok99.github.io/ork/emulator_manual.html"
-  }
-]
+    {
+      "title": { "ko": "커스텀 버튼 사용설명서", "en": "Custom Button Manual" },
+      "url": "https://wooseok99.github.io/ork/emulator_manual.html"
+    }
+  ]
+}
