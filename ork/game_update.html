@@ -3,26 +3,73 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>업데이트 안내 (한/영)</title>
     <style>
         body {
             font-family: sans-serif;
-            line-height: 1.6;
+            line-height: 1.7; /* 줄간격을 살짝 넓혀 가독성 향상 */
             max-width: 800px;
             margin: 40px auto;
             padding: 20px;
+            color: #333;
         }
 
+        /* 상단 네비게이션 모바일 최적화 */
         .nav {
             margin-bottom: 30px;
-            padding: 10px;
+            padding: 12px;
             background: #f0f0f0;
             border-radius: 5px;
+            text-align: center; /* 모바일에서 터치하기 쉽게 중앙 정렬 */
+        }
+        
+        .nav a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+            display: inline-block;
+            padding: 5px 10px; /* 터치 영역 확보 */
         }
 
         .section-title {
-            margin-top: 50px;
+            margin-top: 40px;
             color: #2c3e50;
+            font-size: 1.5rem; /* 모바일에 적절한 크기 */
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 8px;
+        }
+
+        .update-date {
+            color: #7f8c8d;
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+        }
+
+        /* 게임 리스트 스타일 깔끔하게 정리 */
+        .game-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .game-list li {
+            padding: 10px 12px;
+            border-bottom: 1px solid #f5f5f5;
+        }
+
+        /* 3. 모바일 화면(화면 폭 600px 이하)을 위한 대응 */
+        @media (max-width: 600px) {
+            body {
+                margin: 10px auto;
+                padding: 15px; /* 양옆 여백을 줄여 화면 확보 */
+            }
+            .section-title {
+                font-size: 1.3rem; /* 모바일에서는 제목을 조금 작게 */
+            }
+            .nav {
+                font-size: 0.9rem;
+            }
         }
     </style>
 </head>
@@ -30,8 +77,8 @@
 <body>
 
     <div class="nav">
-        <a href="#korean-section">한국어 버전으로 이동</a> |
-        <a href="#english-section">English Version</a>
+        <a href="#korean-section">한국어 버전</a> |
+        <a href="#english-section">English</a>
     </div>
 
     <h1 id="korean-section" class="section-title">🚀 게임 업데이트 안내</h1>
@@ -40,7 +87,7 @@
     <p>황금성 / 글래디에이터</p>
     <p>갱 버스터즈</p>
     <p>은하 임협전</p>
-    <p>갤러그 (빠른 총알 핵))</p>
+    <p>갤러그 (빠른 총알 핵)</p>
     <p>딩고</p>
     <p>HAL21</p>
     <p>건틀렛 (2인용)</p>
@@ -215,5 +262,4 @@
     <p>The King of Fighters '98 (Korean)</p>
     <p>Two Tigers</p>
 </body>
-
 </html>

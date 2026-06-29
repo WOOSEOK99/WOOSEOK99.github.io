@@ -5,31 +5,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>가상 컨트롤러 및 게임 메뉴 설정 사용설명서</title>
     <style>
-        body { font-family: 'Arial', sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f4f4f9; }
-        h1 { color: #2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom: 10px; }
-        h2 { color: #34495e; margin-top: 30px; margin-bottom: 5px; }
-        .sub-title { color: #7f8c8d; font-size: 0.9em; margin-bottom: 15px; font-style: italic; }
-        section { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        .img-container { text-align: center; margin: 15px 0; }
-        .img-container img { width: 80%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+        body { 
+            font-family: 'Arial', sans-serif; 
+            line-height: 1.7; 
+            color: #333; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            background-color: #f4f4f9; 
+        }
+        
+        /* 2. 네비게이션 모바일 터치 가독성 최적화 */
+        .nav {
+            margin: 15px 0 35px 0;
+            padding: 15px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            border: 1px solid #e2e8f0;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+            display: block; /* 모바일에서 한 줄씩 꽉 차게 눌러지도록 설정 */
+            padding: 10px 5px; /* 터치 영역 넉넉하게 확장 */
+            border-bottom: 1px dashed #edf2f7;
+        }
+        
+        .nav a:last-child {
+            border-bottom: none;
+        }
+
+        h1 { 
+            color: #2c3e50; 
+            border-bottom: 2px solid #2c3e50; 
+            padding-bottom: 10px; 
+            font-size: 1.6rem;
+            margin-top: 50px;
+        }
+        
+        /* 메인 페이지 최상단 대제목 스타일 */
+        .main-title {
+            font-size: 1.8rem;
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        h2 { color: #34495e; margin-top: 20px; margin-bottom: 5px; font-size: 1.25rem; }
+        
+        .sub-title { color: #7f8c8d; font-size: 0.85rem; margin-bottom: 15px; font-style: italic; }
+        
+        section { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        
+        /* 안내 문구 박스 스타일 업그레이드 */
+        .note {
+            background-color: #ebf8ff;
+            border-left: 4px solid #3182ce;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+            font-size: 0.95rem;
+            word-break: keep-all;
+        }
+
+        /* 3. 이미지 반응형/모바일 최적화 (가장 중요) */
+        .img-container { text-align: center; margin: 20px 0; }
+        .img-container img { 
+            width: 100%;       /* 모바일 좁은 화면에서는 가로를 꽉 채움 */
+            max-width: 650px;  /* 대화면(PC 등) 환경에서 너무 거대해지는 것 방지 */
+            height: auto; 
+            border-radius: 8px; 
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+        }
+
+        /* 4. 소형 모바일 디바이스 기기별 맞춤 레이아웃 설정 */
+        @media (max-width: 600px) {
+            body { padding: 12px; }
+            section { padding: 15px; }
+            h1 { font-size: 1.35rem; }
+            h2 { font-size: 1.15rem; }
+            .main-title { font-size: 1.45rem; }
+        }
     </style>
 </head>
 <body>
+
+    <h1 class="main-title">가상 컨트롤러 및 게임 메뉴 설정 사용설명서</h1>
+    <p class="sub-title" style="text-align: center; margin-bottom: 25px;">Virtual Controller & Game Menu Settings Manual</p>
+
     <div class="nav">
-        <a href="#combo_button">콤보버튼 설정방법 (Combo Button Settings)</a><br>
-        <a href="#game-deletion">게임삭제 방법 (Game Deletion Method)</a><br>
-        <a href="#Button-modify">버튼 수정 방법 (Button Modification Method)</a>
+        <a href="#combo_button">1. 🚀 콤보버튼 설정방법 (Combo Button Settings)</a>
+        <a href="#game-deletion">2. 🚀 게임삭제 방법 (Game Deletion Method)</a>
+        <a href="#Button-modify">3. 🚀 버튼 수정 방법 (Button Modification Method)</a>
     </div>
 
     <h1 id="combo_button" class="section-title">🚀 콤보버튼 설정방법</h1>
 
-    <h1>가상 컨트롤러 및 게임 메뉴 설정 사용설명서</h1>
-    <p class="sub-title">Virtual Controller & Game Menu Settings Manual</p>
-
     <div class="note">
-        ※ 조이스틱 사용자를 위한 안내<br>
+        <strong>※ 조이스틱 사용자를 위한 안내</strong><br>
         3~5번은 스마트폰 가상 버튼 설정이며, 6~7번은 조이스틱 버튼 설정입니다. 조이스틱 사용자는 6~7번만 확인하세요.<br>
-        <span style="font-weight: normal; font-size: 0.9em;">* Note for Joystick Users: Items 3-5 are for smartphone virtual buttons, while 6-7 are for joystick button settings. Please refer only to 6-7 if using a joystick.</span>
+        <span style="display:block; color: #555; margin-top: 5px; font-weight: normal; font-size: 0.85rem;">* Note for Joystick Users: Items 3-5 are for smartphone virtual buttons, while 6-7 are for joystick button settings. Please refer only to 6-7 if using a joystick.</span>
     </div>
     
     <section>
@@ -74,29 +152,26 @@
         <div class="img-container"><img src="cus_7.jpg" alt="색상 설정"></div>
     </section>
 
-    <h1 id="game-deletion" class="section-title">🚀 게임 삭제 방법 (Game Deletion Method)</h1>
-    <h1>게임 삭제 방법</h1>
-    <p class="sub-title">game deletion method</p>
+    <h1 id="game-deletion" class="section-title">🚀 게임 삭제 방법</h1>
+    <p class="sub-title">Game Deletion Method</p>
     
     <div class="note">
-        다운 받은 게임을 삭제 할수 있습니다.<br>
-        <span style="font-weight: normal; font-size: 0.9em;">Downloaded games can be deleted.</span>
+        다운받은 게임을 삭제할 수 있습니다.<br>
+        <span style="display:block; color: #555; margin-top: 5px; font-weight: normal; font-size: 0.85rem;">Downloaded games can be deleted.</span>
     </div>
 
     <section>
-        <div class="img-container"><img src="Game_del.jpg" alt="초기 화면"></div>
+        <div class="img-container"><img src="Game_del.jpg" alt="게임 삭제 화면"></div>
     </section>
 
-    <h1 id="Button-modify" class="section-title">🚀 버튼 수정 방법 (Button Modification Method)</h1>
-    <h1>버튼 수정 방법</h1>
-    <p class="sub-title">button modification method</p>
+    <h1 id="Button-modify" class="section-title">🚀 버튼 수정 방법</h1>
+    <p class="sub-title">Button Modification Method</p>
   
     <section>
-        <div class="img-container"><img src="button_modify0.png" alt="초기 화면"></div>
-        <div class="img-container"><img src="button_modify1.png" alt="초기 화면"></div>
-        <div class="img-container"><img src="button_modify2.png" alt="초기 화면"></div>
-        <div class="img-container"><img src="button_modify3.png" alt="초기 화면"></div>
-
+        <div class="img-container"><img src="button_modify0.png" alt="버튼 수정 0"></div>
+        <div class="img-container"><img src="button_modify1.png" alt="버튼 수정 1"></div>
+        <div class="img-container"><img src="button_modify2.png" alt="버튼 수정 2"></div>
+        <div class="img-container"><img src="button_modify3.png" alt="버튼 수정 3"></div>
     </section>
 
 </body>
