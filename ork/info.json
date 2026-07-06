@@ -16,6 +16,10 @@
     {
       "title": { "ko": "게임 업데이트 정보", "en": "Game Update Information" },
       "url": "https://wooseok99.github.io/ork/game_update.html"
+    },
+    {
+      "title": { "ko": "게임 오류 발생시", "en": "In the event of a game error" },
+      "url": "https://wooseok99.github.io/ork/game_error.html"
     }
   ]
 }
