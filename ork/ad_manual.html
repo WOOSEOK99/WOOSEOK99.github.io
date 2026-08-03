@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>광고 정책 안내 (한/영)</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.7; /* 줄간격을 살짝 넓혀 가독성 향상 */
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            color: #333;
+        }
+
+        /* 상단 네비게이션 모바일 최적화 */
+        .nav {
+            margin-bottom: 30px;
+            padding: 12px;
+            background: #f0f0f0;
+            border-radius: 5px;
+            text-align: center; /* 모바일에서 터치하기 쉽게 중앙 정렬 */
+        }
+        
+        .nav a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+            display: inline-block;
+            padding: 5px 10px; /* 터치 영역 확보 */
+        }
+
+        .section-title {
+            margin-top: 40px;
+            color: #2c3e50;
+            font-size: 1.5rem; /* 모바일에 적절한 크기 */
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 8px;
+        }
+
+        .notice-box {
+            background: #f9f9f9;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        /* 모바일 화면(화면 폭 600px 이하)을 위한 대응 */
+        @media (max-width: 600px) {
+            body {
+                margin: 10px auto;
+                padding: 15px; /* 양옆 여백을 줄여 화면 확보 */
+            }
+            .section-title {
+                font-size: 1.3rem; /* 모바일에서는 제목을 조금 작게 */
+            }
+            .nav {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="nav">
+        <a href="#korean-section">한국어 버전</a> |
+        <a href="#english-section">English</a>
+    </div>
+
+    <!-- 한국어 섹션 -->
+    <h1 id="korean-section" class="section-title">📢 광고 정책 안내</h1>
+    
+    <div class="notice-box">
+        <h3>💡 전면광고 노출 정책 변경 안내</h3>
+        <p>더 나은 서비스 제공과 지속적인 업데이트를 위해 전면광고 노출 방식이 변경됩니다.</p>
+        <p>• <strong>앱 실행당 최대 3회 제한</strong>: 앱을 실행한 후 게임을 즐기시는 동안 전면광고는 최대 3회까지만 노출됩니다. (앱을 완전히 종료 후 다시 켜면 횟수가 초기화됩니다.)</p>
+        <p>• <strong>광고 없는 쾌적한 이용</strong>: 설정 메뉴에서 <strong>'영구 광고 제거'</strong> 인앱 결제를 이용하시면 모든 광고를 영구적으로 제거하실 수 있습니다.</p>
+    </div>
+
+    <hr style="margin: 50px 0; border: 1px solid #ddd;">
+
+    <!-- 영어 섹션 -->
+    <h1 id="english-section" class="section-title">📢 Notice on Ad Policy</h1>
+
+    <div class="notice-box">
+        <h3>💡 Notice on Interstitial Ad Policy Update</h3>
+        <p>To provide better service and continuous updates, the interstitial ad display policy has been updated.</p>
+        <p>• <strong>Limit of 3 Interstitial Ads Per App Session</strong>: Interstitial ads will appear a maximum of 3 times while you enjoy games after launching the app. (The count resets when you completely close and restart the app.)</p>
+        <p>• <strong>Ad-Free Experience</strong>: You can permanently remove all ads by purchasing the <strong>'Permanent Ad Removal'</strong> in-app item in the settings menu.</p>
+    </div>
+
+</body>
+</html>
