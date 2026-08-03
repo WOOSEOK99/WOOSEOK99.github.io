@@ -6,6 +6,10 @@
       "url": "https://wooseok99.github.io/ork/"
     },
     {
+      "title": { "ko": "광고 정책", "en": "About App" },
+      "url": "https://wooseok99.github.io/ork/ad_manual.html"
+    },
+    {
       "title": { "ko": "사용설명서", "en": "Manual" },
       "url": "https://wooseok99.github.io/ork/emulator_manual.html"
     },
