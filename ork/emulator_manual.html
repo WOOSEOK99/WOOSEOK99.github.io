@@ -100,6 +100,7 @@
         <a href="#combo_button">1. 🚀 콤보버튼 설정방법 (Combo Button Settings)</a>
         <a href="#game-deletion">2. 🚀 게임삭제 방법 (Game Deletion Method)</a>
         <a href="#Button-modify">3. 🚀 버튼 수정 방법 (Button Modification Method)</a>
+        <a href="#gamepad-update">4. 🚀 조이스틱(외장 장치) 키 설정 (Gamepad Key Settings)</a>
     </div>
 
     <h1 id="combo_button" class="section-title">🚀 콤보버튼 설정방법</h1>
@@ -172,6 +173,73 @@
         <div class="img-container"><img src="button_modify1.png" alt="버튼 수정 1"></div>
         <div class="img-container"><img src="button_modify2.png" alt="버튼 수정 2"></div>
         <div class="img-container"><img src="button_modify3.png" alt="버튼 수정 3"></div>
+    </section>
+
+    <h1 id="gamepad-update" class="section-title">🚀 조이스틱(외장 장치) 키 설정 및 편의성 업데이트</h1>
+    <p class="sub-title">Gamepad (External Device) Key Configuration & Convenience Update</p>
+    
+    <div class="note">
+        <strong>🎮 조이스틱(외장 장치) 키 설정 및 편의성 업데이트 안내</strong><br>
+        이번 업데이트에서는 블루투스 조이스틱 사용자의 경험을 개선하고, 기기마다 다른 버튼 갯수 및 하드웨어 오류로 인한 불편함을 해소하기 위해 입력(외장 장치) 설정이 대폭 개편되었습니다.<br>
+        <span style="display:block; color: #555; margin-top: 5px; font-weight: normal; font-size: 0.85rem;">In this update, the input (external device) settings have been vastly overhauled to improve the Bluetooth gamepad user experience and resolve inconveniences caused by varying numbers of buttons across devices and hardware errors.</span>
+    </div>
+
+    <section>
+        <h2>1. 1P / 2P 기기 직관적 구분</h2>
+        <div class="sub-title">Intuitive Differentiation of 1P / 2P Devices</div>
+        <p><strong>기존:</strong> 동일한 이름의 조이스틱을 2대 이상 연결했을 때, 설정 창에서 어떤 항목이 1P(Player 1)인지 2P인지 식별할 수 없는 문제가 있었습니다.<br>
+        <strong>개선:</strong> 이제 기기 설정 제목 앞에 [ 1P : Bluetooth Gamepad ], [ 2P : Bluetooth Gamepad ] 와 같이 플레이어 인덱스가 자동으로 부여되어, 여러 대의 컨트롤러를 연결해도 헷갈리지 않고 정확히 원하는 패드의 키를 세팅할 수 있습니다.</p>
+        <p style="color: #555; font-size: 0.9rem; margin-top: 10px;">
+        <strong>Previous:</strong> When connecting 2 or more gamepads of the same name, it was impossible to identify which item in the settings window was 1P (Player 1) or 2P.<br>
+        <strong>Improved:</strong> Player indices are now automatically assigned in front of the device settings title, such as [ 1P : Bluetooth Gamepad ], [ 2P : Bluetooth Gamepad ]. Even with multiple controllers connected, you can accurately configure keys for the exact pad you want without confusion.
+        </p>
+    </section>
+
+    <section>
+        <h2>2. '메뉴 호출' 기능 명칭 변경 및 세분화</h2>
+        <div class="sub-title">'Menu Call' Function Renamed and Detailed</div>
+        <p>게임 중 <strong>'게임 메뉴(종료/컨트롤 변경 등)'</strong>를 띄우는 기능의 명칭이 모호하여, 버튼 맵핑 시 용도를 명확히 알 수 있도록 이름을 변경했습니다.</p>
+        <ul style="margin-top: 10px; margin-bottom: 10px;">
+            <li style="margin-bottom: 5px;"><strong>Menu (Single Button) :</strong> 조이스틱에 남는 특수 버튼(예: 엑스박스 가이드 버튼, 플스 PS 홈 버튼) 단 1개를 눌러 메뉴를 호출하고자 할 때 씁니다.</li>
+            <li style="margin-bottom: 5px;"><strong>Menu (Combo Button) :</strong> 조이스틱에 남는 버튼이 없을 때, 지정된 2개의 버튼을 동시(조합)에 눌러 메뉴를 호출하고자 할 때 씁니다. (예: Select + Start 동시 누름)</li>
+        </ul>
+        <div style="color: #555; font-size: 0.9rem; margin-top: 10px;">
+        <p style="margin-bottom: 5px;">The name of the function to pull up the <strong>'game menu (exit/control change, etc.)'</strong> during gameplay was ambiguous, so it has been renamed to clarify its purpose during button mapping.</p>
+        <p style="margin-bottom: 5px; margin-left: 10px;">- <strong>Menu (Single Button):</strong> Use this when you want to call the menu by pressing a single spare special button on the joystick (e.g., Xbox Guide button, PlayStation PS Home button).</p>
+        <p style="margin-bottom: 5px; margin-left: 10px;">- <strong>Menu (Combo Button):</strong> Use this when there are no spare buttons on the joystick and you want to call the menu by pressing a combination of two designated buttons simultaneously. (e.g., Pressing Select + Start at the same time)</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>3. 오작동 방지를 위한 [할당 해제 (Unbind)] 기능 추가</h2>
+        <div class="sub-title">Added [Unbind] Function to Prevent Malfunctions</div>
+        <p>일부 호환 조이스틱의 경우 십자키(D-Pad)의 중앙을 세게 누르면 기계적 결함으로 L3 버튼이 입력되어, 게임 도중 원하지 않는 기능(저장/로드 등)이 난데없이 실행되는 경우가 있습니다.</p>
+        <ul style="margin-top: 10px; margin-bottom: 10px;">
+            <li style="margin-bottom: 5px;"><strong>개선:</strong> 키를 맵핑하려고 터치했을 때 나타나는 팝업창 안에 [할당 해제 (Unbind)] 버튼을 신설했습니다.</li>
+            <li style="margin-bottom: 5px;"><strong>사용법:</strong> 오작동을 일으키는 버튼 항목(예: RetroPad L3)을 누른 후 가만히 둔 채로 화면의 [할당 해제] 버튼을 누르면, 해당 버튼이 완전히 비활성화(- 표시)되어 십자키를 세게 눌러도 절대 오작동하지 않습니다.</li>
+        </ul>
+        <div style="color: #555; font-size: 0.9rem; margin-top: 10px;">
+        <p style="margin-bottom: 5px;">On some compatible gamepads, pressing the center of the D-Pad hard causes a mechanical glitch that inputs the L3 button, leading to unwanted functions (save/load, etc.) popping up unexpectedly during a game.</p>
+        <p style="margin-bottom: 5px; margin-left: 10px;">- <strong>Improved:</strong> An [Unbind] button has been newly added inside the pop-up window that appears when touching to map a key.</p>
+        <p style="margin-bottom: 5px; margin-left: 10px;">- <strong>How to use:</strong> Tap the button item causing the malfunction (e.g., RetroPad L3) and without touching the gamepad controller, press the [Unbind] button on the screen. The button will be completely disabled (shown as -), and even if you press the D-Pad hard, it will never trigger the malfunction.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>4. 물리 버튼이 부족한 패드를 위한 가상 버튼 조합 (Virtual Shortcuts) 추가</h2>
+        <div class="sub-title">Added Virtual Shortcuts for Pads with Insufficient Physical Buttons</div>
+        <p>L3, R3, L2, R2 물리 버튼이 아예 없는 저가형 6버튼/8버튼 조이스틱 사용자라도 코어 내부의 확장 기능(상태 저장, 자동 연사, 치트 등)을 100% 활용할 수 있도록 가상 단축키를 추가했습니다.</p>
+        <ul style="margin-top: 10px; margin-bottom: 10px;">
+            <li style="margin-bottom: 5px;"><strong>기능:</strong> 외장 장치 설정 목록 맨 밑의 [단축키] 항목에 Virtual L3, Virtual R3, Virtual L2, Virtual R2 기능이 신설되었습니다.</li>
+            <li style="margin-bottom: 5px;"><strong>사용법:</strong> 사용할 가상 단축키(예: Virtual L3)를 터치한 후, 본인이 원하는 <strong>두 개의 버튼(예: Start + A)</strong>을 번갈아 눌러 등록합니다.</li>
+            <li style="margin-bottom: 5px;"><strong>효과:</strong> 위 메뉴얼 3번의 기능으로 실제 RetroPad L3 버튼은 [할당 해제]하여 완전히 끄되, 오직 평화롭게 Start + A 를 동시에 누를 때만 완벽하게 코어 쪽으로 L3 신호가 발동합니다. 기기에 버튼이 몇 개 있든 구애받지 않고 모든 기능을 자유자재로 설정할 수 있습니다.</li>
+        </ul>
+        <div style="color: #555; font-size: 0.9rem; margin-top: 10px;">
+        <p style="margin-bottom: 5px;">Even users with budget 6-button or 8-button gamepads entirely lacking physical L3, R3, L2, and R2 buttons can now fully utilize the core's advanced features (save states, auto-fire, cheats, etc.) with newly added virtual shortcuts.</p>
+        <p style="margin-bottom: 5px; margin-left: 10px;">- <strong>Feature:</strong> Virtual L3, Virtual R3, Virtual L2, Virtual R2 functions have been newly added under the [Shortcuts] section at the very bottom of the external device settings list.</p>
+        <p style="margin-bottom: 5px; margin-left: 10px;">- <strong>How to use:</strong> Tap the virtual shortcut you wish to use (e.g., Virtual L3), then register it by pressing your desired <strong>two buttons (e.g., Start + A)</strong> consecutively.</p>
+        <p style="margin-bottom: 5px; margin-left: 10px;">- <strong>Effect:</strong> Using the function in manual section 3 above, completely turn off the actual RetroPad L3 button by choosing [Unbind]. The L3 signal will now perfectly trigger to the core only when you peacefully press Start + A simultaneously. Regardless of how many buttons your device has, you can freely configure all functions without restrictions.</p>
+        </div>
     </section>
 
 </body>
