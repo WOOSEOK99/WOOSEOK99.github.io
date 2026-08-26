@@ -2,10 +2,6 @@
   "updated_at": "20260813",
   "links": [
     {
-      "title": { "ko": "앱 소개", "en": "About App" },
-      "url": "https://wooseok99.github.io/ork/"
-    },
-    {
       "title": { "ko": "공지", "en": "notification" },
       "url": "https://wooseok99.github.io/ork/game_error.html"
     },
@@ -16,14 +12,6 @@
     {
       "title": { "ko": "사용설명서", "en": "Manual" },
       "url": "https://wooseok99.github.io/ork/emulator_manual.html"
-    },
-    {
-      "title": { "ko": "업데이트 정보", "en": "Update Information" },
-      "url": "https://wooseok99.github.io/ork/update.html"
-    },
-    {
-      "title": { "ko": "게임 업데이트 정보", "en": "Game Update Information" },
-      "url": "https://wooseok99.github.io/ork/game_update.html"
     }
   ]
 }
