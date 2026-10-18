@@ -3,20 +3,135 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#ffffff">
 <meta name="description" content="EKLauncher 게임 실행, 가상 컨트롤러, 외장 게임패드, 터치 입력 방식과 고급 설정 안내">
 <title>EKLauncher 사용설명서 · 개편 초안</title>
 <style>
 :root{color-scheme:light;--navy:#162b48;--ink:#1f3349;--muted:#617387;--line:#dce5ec;--blue:#1c72b7;--sky:#ecf5fb;--pale:#f7f9fc;--green:#007a70;--white:#fff}
-*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:75px}[hidden]{display:none!important}body{margin:0;background:var(--pale);color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans KR","Apple SD Gothic Neo",sans-serif;font-size:15px;line-height:1.78}a{color:var(--blue)}.top{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:4}.top-inner{max-width:1120px;margin:auto;padding:11px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px}.brand{font-size:14px;font-weight:850;color:var(--navy);letter-spacing:.04em;text-decoration:none}.top-link{font-size:12px;font-weight:750;text-decoration:none;border:1px solid var(--line);border-radius:100px;padding:5px 12px}.hero{background:linear-gradient(123deg,#112a48 0%,#214c78 60%,#176d90 100%);color:#fff;padding:65px 22px 70px}.wrap{max-width:1120px;margin:auto}.hero-eyebrow{font-size:12px;font-weight:800;letter-spacing:.17em;color:#b9dffa}.hero h1{font-size:clamp(32px,5vw,52px);line-height:1.2;margin:15px 0 14px;letter-spacing:-.055em}.hero p{max-width:700px;color:#deedfb;font-size:16px;margin:0}.hero-labels{display:flex;gap:8px;flex-wrap:wrap;margin-top:24px}.hero-labels span{border:1px solid #ffffff59;border-radius:30px;font-size:12px;padding:4px 11px;color:#dcebf8}.main{max-width:1120px;padding:33px 20px 80px;margin:auto}.intro{display:grid;grid-template-columns:1.25fr 1fr;gap:18px}.panel{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 3px 18px #19365006}.panel h2{font-size:19px;margin:0 0 10px;letter-spacing:-.025em}.panel p{margin:0 0 9px}.panel ol{margin:0;padding-left:20px}.panel li{margin:5px 0}.toc{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:15px}.toc a{display:block;background:var(--sky);border-radius:9px;padding:9px 12px;text-decoration:none;font-weight:700;font-size:13px}.chapter{margin-top:56px;scroll-margin-top:95px}.chapter-head{margin-bottom:25px}.chapter-index{font-size:11px;color:var(--green);font-weight:850;letter-spacing:.14em}.chapter h2{font-size:clamp(26px,3.7vw,34px);color:var(--navy);margin:4px 0 0;letter-spacing:-.045em}.chapter-en{font-size:13px;color:var(--muted);margin:0}.subtitle{font-size:17px;color:var(--blue);font-weight:750;margin:10px 0 5px}.chapter-head>p:last-child{margin-top:3px}.shot-grid{display:grid;gap:16px}.shot-card{display:grid;grid-template-columns:1.07fr .93fr;gap:18px;align-items:start;padding:23px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 3px 18px #15354b07;scroll-margin-top:95px}.shot-overline{font-size:10px;letter-spacing:.1em;font-weight:800;color:var(--green)}.shot-copy h3{font-size:20px;color:var(--navy);margin:5px 0 0;letter-spacing:-.035em}.en{font-size:12px;color:var(--muted)}.shot-copy p{margin:15px 0 0}.action{border-left:3px solid var(--blue);padding:6px 0 6px 12px;background:#f6fbff}.action strong,.note strong{display:block;font-size:12px;color:var(--blue);letter-spacing:.02em}.note{background:#f6f8fa;border-radius:9px;padding:10px 12px;color:#5c6c7e;font-size:13px}.note strong{color:#627487}.shot{margin:0;min-width:0}.shot-frame{border:1px solid #d4e1eb;border-radius:11px;overflow:hidden;background:#ecf4fa;min-height:225px;display:grid;place-items:center}.shot-frame img{display:block;max-width:100%;width:100%;height:auto;object-fit:contain}.shot-missing{min-height:230px;width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:#607c98;gap:6px;padding:12px}.camera-icon{font-size:34px;color:#90aac2;line-height:1.2}.shot-missing small{font-size:12px}.shot-missing code{border:1px solid #cadaea;background:white;border-radius:8px;padding:3px 9px;color:#1c567a;font-size:12px;margin-top:6px}.shot figcaption{font-size:11px;color:var(--muted);display:flex;justify-content:space-between;gap:5px;flex-wrap:wrap;margin-top:8px;overflow-wrap:anywhere}code{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace}.faq{margin-top:55px}.faq h2,.appendix h2{font-size:26px;margin:0 0 15px}.faq details{background:white;border:1px solid var(--line);border-radius:10px;margin:9px 0;padding:13px 17px}.faq summary{cursor:pointer;font-weight:750}.faq p{margin:10px 0 2px}.appendix{margin-top:50px}.manifest-group{padding:18px 18px 12px;background:white;border:1px solid var(--line);border-radius:12px;margin:12px 0}.manifest-group h3{font-size:16px;margin:0 0 10px}.manifest-row{display:grid;grid-template-columns:240px 1fr;border-top:1px solid #edf1f5;padding:6px 0;gap:10px;font-size:13px}.manifest-row code{color:#245f85;font-weight:650;overflow-wrap:anywhere}.closing{margin-top:46px;padding-top:20px;border-top:1px solid var(--line);text-align:center;color:var(--muted);font-size:12px}@media(max-width:760px){.hero{padding:42px 18px 48px}.main{padding:22px 13px 50px}.intro,.shot-card{grid-template-columns:1fr}.toc{grid-template-columns:1fr}.shot-card{padding:16px;gap:15px}.panel{padding:18px}.shot-frame{min-height:200px}.manifest-row{grid-template-columns:1fr;gap:0}.top-inner{padding:10px 14px}.chapter{margin-top:42px}}@media print{.top{position:static}.hero{padding:25px;background:#eff5fa;color:#162b48}.hero p,.hero-eyebrow{color:#1d456a}.shot-card{break-inside:avoid;box-shadow:none}.panel{box-shadow:none}.chapter{break-before:page}.closing{display:none}}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:75px}[hidden]{display:none!important}body{margin:0;background:var(--pale);color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans KR","Apple SD Gothic Neo",sans-serif;font-size:15px;line-height:1.78}a{color:var(--blue)}.top{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:4}.top-inner{max-width:1120px;margin:auto;padding:11px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px}.brand{font-size:14px;font-weight:850;color:var(--navy);letter-spacing:.04em;text-decoration:none}.top-link{font-size:12px;font-weight:750;text-decoration:none;border:1px solid var(--line);border-radius:100px;padding:5px 12px}.hero{background:linear-gradient(123deg,#112a48 0%,#214c78 60%,#176d90 100%);color:#fff;padding:65px 22px 70px}.wrap{max-width:1120px;margin:auto}.hero-eyebrow{font-size:12px;font-weight:800;letter-spacing:.17em;color:#b9dffa}.hero h1{font-size:clamp(32px,5vw,52px);line-height:1.2;margin:15px 0 14px;letter-spacing:-.055em}.hero p{max-width:700px;color:#deedfb;font-size:16px;margin:0}.hero-labels{display:flex;gap:8px;flex-wrap:wrap;margin-top:24px}.hero-labels span{border:1px solid #ffffff59;border-radius:30px;font-size:12px;padding:4px 11px;color:#dcebf8}.main{max-width:1120px;padding:33px 20px 80px;margin:auto}.intro{display:grid;grid-template-columns:1.25fr 1fr;gap:18px}.panel{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 3px 18px #19365006}.panel h2{font-size:19px;margin:0 0 10px;letter-spacing:-.025em}.panel p{margin:0 0 9px}.panel ol{margin:0;padding-left:20px}.panel li{margin:5px 0}.toc{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:15px}.toc a{display:block;background:var(--sky);border-radius:9px;padding:9px 12px;text-decoration:none;font-weight:700;font-size:13px}.chapter{margin-top:56px;scroll-margin-top:95px}.chapter-head{margin-bottom:25px}.chapter-index{font-size:11px;color:var(--green);font-weight:850;letter-spacing:.14em}.chapter h2{font-size:clamp(26px,3.7vw,34px);color:var(--navy);margin:4px 0 0;letter-spacing:-.045em}.chapter-en{font-size:13px;color:var(--muted);margin:0}.subtitle{font-size:17px;color:var(--blue);font-weight:750;margin:10px 0 5px}.chapter-head>p:last-child{margin-top:3px}.shot-grid{display:grid;gap:16px}.shot-card{display:grid;grid-template-columns:1.07fr .93fr;gap:18px;align-items:start;padding:23px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 3px 18px #15354b07;scroll-margin-top:95px}.shot-overline{font-size:10px;letter-spacing:.1em;font-weight:800;color:var(--green)}.shot-copy h3{font-size:20px;color:var(--navy);margin:5px 0 0;letter-spacing:-.035em}.en{font-size:12px;color:var(--muted)}.shot-copy p{margin:15px 0 0}.action{border-left:3px solid var(--blue);padding:6px 0 6px 12px;background:#f6fbff}.action strong,.note strong{display:block;font-size:12px;color:var(--blue);letter-spacing:.02em}.note{background:#f6f8fa;border-radius:9px;padding:10px 12px;color:#5c6c7e;font-size:13px}.note strong{color:#627487}.shot{margin:0;min-width:0}.shot-frame{border:1px solid #d4e1eb;border-radius:11px;overflow:hidden;background:#ecf4fa;min-height:225px;display:grid;place-items:center}.shot-frame img{display:block;max-width:100%;width:100%;height:auto;object-fit:contain}.shot-missing{min-height:230px;width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:#607c98;gap:6px;padding:12px}.camera-icon{font-size:34px;color:#90aac2;line-height:1.2}.shot-missing small{font-size:12px}.shot-missing code{border:1px solid #cadaea;background:white;border-radius:8px;padding:3px 9px;color:#1c567a;font-size:12px;margin-top:6px}.shot figcaption{font-size:11px;color:var(--muted);display:flex;justify-content:space-between;gap:5px;flex-wrap:wrap;margin-top:8px;overflow-wrap:anywhere}code{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace}.faq{margin-top:55px}.faq h2,.appendix h2{font-size:26px;margin:0 0 15px}.faq details{background:white;border:1px solid var(--line);border-radius:10px;margin:9px 0;padding:13px 17px}.faq summary{cursor:pointer;font-weight:750}.faq p{margin:10px 0 2px}.appendix{margin-top:50px}.manifest-group{padding:18px 18px 12px;background:white;border:1px solid var(--line);border-radius:12px;margin:12px 0}.manifest-group h3{font-size:16px;margin:0 0 10px}.manifest-row{display:grid;grid-template-columns:240px 1fr;border-top:1px solid #edf1f5;padding:6px 0;gap:10px;font-size:13px}.manifest-row code{color:#245f85;font-weight:650;overflow-wrap:anywhere}.closing{margin-top:46px;padding-top:20px;border-top:1px solid var(--line);text-align:center;color:var(--muted);font-size:12px}@media(max-width:760px){.hero{padding:42px 18px 48px}.main{padding:22px 13px 50px}.intro,.shot-card{grid-template-columns:1fr}.toc{grid-template-columns:1fr}.shot-card{padding:16px;gap:15px}.panel{padding:18px}.shot-frame{min-height:200px}.manifest-row{grid-template-columns:1fr;gap:0}.top-inner{padding:10px 14px}.chapter{margin-top:42px}}
+/* Mobile-first reading layout. A wider monitor previews a phone-sized manual. */
+html { scroll-padding-top: 72px; }
+body {
+  font-size:16px;
+  line-height:1.65;
+  background:#f5f7fa;
+  overflow-wrap:anywhere;
+  -webkit-text-size-adjust:100%;
+}
+.wrap,.main,.top-inner { max-width:640px; }
+.top-inner { min-height:52px; padding:6px 16px; }
+.brand { font-size:14px; }
+.top-link {
+  display:inline-flex; align-items:center; justify-content:center;
+  min-height:44px; padding:8px 17px; font-size:13px;
+}
+.hero { padding:28px 20px 32px; }
+.hero h1 { font-size:clamp(30px,8vw,39px); margin:10px 0 12px; }
+.hero p { font-size:15px; line-height:1.65; }
+.hero-labels { gap:6px; margin-top:18px; }
+.hero-labels span { font-size:11px; padding:5px 9px; }
+.main { padding:16px 12px 64px; }
+.intro { grid-template-columns:minmax(0,1fr); gap:12px; }
+.panel { padding:18px; border-radius:14px; }
+.panel h2 { font-size:19px; }
+.toc { grid-template-columns:minmax(0,1fr); gap:7px; }
+.toc a {
+  display:flex; align-items:center; min-height:48px;
+  padding:11px 14px; font-size:15px; line-height:1.45;
+}
+#contents { scroll-margin-top:74px; }
+.chapter { margin-top:40px; }
+.chapter-head { margin-bottom:18px; padding:0 3px; }
+.chapter h2 { font-size:clamp(24px,6.4vw,30px); }
+.chapter-en { font-size:12px; }
+.subtitle { font-size:16px; margin-top:11px; }
+.shot-grid { gap:14px; }
+.shot-card {
+  display:flex; flex-direction:column; align-items:stretch;
+  gap:0; padding:17px 15px 16px; border-radius:14px;
+  min-width:0;
+}
+/* Visually put screenshot between heading and instructions on phones. */
+.shot-copy { display:contents; }
+.shot-overline { order:1; font-size:10px; }
+.shot-copy h3 { order:2; font-size:20px; margin:2px 0 0; }
+.en { order:3; margin-bottom:12px; }
+.shot { order:4; width:100%; margin:0 0 14px; }
+.shot-copy > p:not(.action):not(.note) { order:5; margin:0 0 12px; }
+.shot-copy .action {
+  order:6; margin:0 0 10px; padding:12px 14px;
+  font-size:15px; line-height:1.65;
+}
+.shot-copy .action strong { margin-bottom:3px; font-size:13px; }
+.shot-copy .note { order:7; margin:0; font-size:13px; }
+.shot-frame { min-height:0; width:100%; border-radius:12px; }
+.shot-frame img {
+  display:block; width:100%; max-width:100%; height:auto;
+  max-height:72svh; object-fit:contain;
+  cursor:zoom-in;
+}
+.shot-missing { min-height:132px; gap:3px; padding:14px; }
+.shot-missing .camera-icon { font-size:25px; }
+.shot-missing small { font-size:11px; }
+.shot figcaption { display:none; }
+.faq { margin-top:45px; }
+.faq h2 { font-size:24px; }
+.faq details { padding:13px 14px; }
+.faq summary { min-height:36px; font-size:15px; line-height:1.6; }
+.faq p { font-size:14px; }
+.appendix { margin-top:35px; }
+.upload-details { background:#fff; border:1px solid var(--line); padding:13px; border-radius:14px; }
+.upload-details > summary { cursor:pointer; min-height:44px; display:list-item; padding:8px 4px; font-size:14px; font-weight:700; }
+.upload-details > h2 { font-size:20px; }
+.manifest-group { padding:13px; }
+.manifest-row { grid-template-columns:minmax(0,1fr); gap:0; line-height:1.6; }
+.closing { margin-top:30px; }
+.image-viewer[hidden] { display:none!important; }
+.image-viewer {
+  position:fixed; inset:0; z-index:40;
+  display:flex; align-items:center; justify-content:center;
+  padding:64px 8px 15px; background:rgba(10,19,31,.95);
+}
+.image-viewer img {
+  display:block; max-width:100%; max-height:calc(100vh - 84px);
+  max-height:calc(100dvh - 84px); width:auto; height:auto; object-fit:contain;
+}
+.viewer-close {
+  position:absolute; top:max(10px,env(safe-area-inset-top)); right:10px;
+  min-width:48px; min-height:48px;
+  border:1px solid #667689; border-radius:100px;
+  background:#283749; color:#fff; font-size:28px; line-height:1;
+  cursor:pointer;
+}
+.viewer-hint {
+  position:absolute; top:max(25px,calc(env(safe-area-inset-top) + 14px));
+  left:16px; right:70px; color:#dfecf5; font-size:13px;
+}
+body.viewer-open { overflow:hidden; }
+@media (min-width:761px){
+  .main { padding-top:24px; }
+  .shot-card { padding:22px; }
+  .shot-frame img { max-height:620px; }
+}
+@media (max-width:360px) {
+  .main { padding-left:9px; padding-right:9px; }
+  .hero { padding-left:16px; padding-right:16px; }
+  .shot-card { padding-left:12px; padding-right:12px; }
+  .hero-labels span { font-size:10px; }
+}
+@media (prefers-reduced-motion:reduce){
+  html { scroll-behavior:auto; }
+}
+@media print{.top{position:static}.hero{padding:25px;background:#eff5fa;color:#162b48}.hero p,.hero-eyebrow{color:#1d456a}.shot-card{break-inside:avoid;box-shadow:none}.panel{box-shadow:none}.chapter{break-before:page}.closing{display:none}}
 </style>
 </head>
 <body>
-<header class="top"><div class="top-inner"><a href="#top" class="brand">EKLauncher / MANUAL</a><a class="top-link" href="#upload">스크린샷 목록 ↓</a></div></header>
-<div class="hero" id="top"><div class="wrap"><div class="hero-eyebrow">USER GUIDE · DRAFT</div><h1>EKLauncher<br>사용설명서</h1><p>게임 라이브러리부터 터치 조작, 외장 게임패드 설정, 문제 해결까지 단계별로 안내합니다. 아래 스크린샷은 실제 앱 화면을 업로드하는 대로 자동 표시됩니다.</p><div class="hero-labels"><span>개편 초안</span><span>모바일 최적화</span><span>스크린샷 30장 연결</span><span>원본 설명서 보존</span></div></div></div>
+<header class="top"><div class="top-inner"><a href="#top" class="brand">EKLauncher / MANUAL</a><a class="top-link" href="#contents">목차 보기</a></div></header>
+<div class="hero" id="top"><div class="wrap"><div class="hero-eyebrow">EKLAUNCHER · MOBILE GUIDE</div><h1>EKLauncher<br>사용설명서</h1><p>휴대폰에서 보기 편한 설명서입니다. 게임 시작, 터치 조작, 외장 게임패드 설정부터 문제 해결까지 순서대로 안내합니다.</p><div class="hero-labels"><span>게임 시작</span><span>터치 조작</span><span>외장 게임패드</span><span>문제 해결</span></div></div></div>
 <main class="main">
 <div class="intro">
 <div class="panel"><h2>처음 사용할 때</h2><ol><li><a href="#shot-01">앱 메인 화면</a>과 게임 목록을 확인하세요.</li><li><a href="#shot-04">설정 → ROM → 디렉토리</a>에서 게임 파일 폴더를 지정하세요.</li><li>게임을 실행하고 <a href="#shot-08">게임 메뉴</a>로 이동하여 저장과 조작 방법을 확인하세요.</li><li>입력 문제가 있으면 <a href="#shot-25">터치 입력 방식</a> 항목을 참고하세요.</li></ol></div>
-<div class="panel"><h2>설명서 목차</h2><p>원하는 항목을 눌러 이동하세요.</p><div class="toc"><a href="#start">01. 시작하기</a><a href="#play">02. 게임 실행과 게임 메뉴</a><a href="#touch">03. 가상 컨트롤러 설정</a><a href="#gamepad">04. 외장 게임패드와 버튼 매핑</a><a href="#advanced">05. 고급 설정과 문제 해결</a></div><p style="margin-top:13px"><a href="#faq">자주 묻는 질문</a> · <a href="#upload">사진 업로드 안내</a></p></div>
+<div class="panel" id="contents"><h2>설명서 목차</h2><p>원하는 항목을 눌러 이동하세요.</p><div class="toc"><a href="#start">01. 시작하기</a><a href="#play">02. 게임 실행과 게임 메뉴</a><a href="#touch">03. 가상 컨트롤러 설정</a><a href="#gamepad">04. 외장 게임패드와 버튼 매핑</a><a href="#advanced">05. 고급 설정과 문제 해결</a></div><p style="margin-top:13px"><a href="#faq">자주 묻는 질문</a> · <a href="#upload">사진 업로드 안내</a></p></div>
 </div>
 <section class="chapter" id="start"><div class="chapter-head"><div class="chapter-index">CHAPTER 01</div><h2>01. 시작하기</h2><p class="chapter-en">Getting started</p><p class="subtitle">게임을 찾고 ROM 폴더를 설정하는 기본 흐름</p><p>처음 실행한 다음에는 게임 목록을 확인하고, 필요한 경우 ROM 저장 위치를 지정하세요.</p></div><div class="shot-grid"><article class="shot-card" id="shot-01">
  <div class="shot-copy"><div class="shot-overline">01 / FIELD GUIDE</div><h3>앱 첫 화면</h3><div class="en">Home screen</div><p>앱을 실행하면 보이는 메인 화면입니다.</p><p class="action"><strong>사용 방법</strong> 시스템 분류, 게임 목록, 설정으로 이동할 수 있는 항목을 확인합니다.</p><p class="note"><strong>참고</strong> 설치된 앱 버전에 따라 배치가 다를 수 있습니다.</p></div>
@@ -149,9 +264,56 @@
 <details><summary>게임이 보이지 않습니다.</summary><p>설정의 ROM 디렉토리를 확인하고 재검색 기능을 실행하세요. 지원되는 파일 형식과 코어는 게임 시스템별로 다를 수 있습니다.</p></details>
 <details><summary>고급 설정을 변경했는데 플레이 중 바로 반영되지 않습니다.</summary><p>터치 입력 방식은 설정 화면의 안내처럼 게임을 <strong>다음에 실행할 때</strong> 반영됩니다. 항목마다 적용 시점이 다르므로 화면 안내를 우선하세요.</p></details>
 </section>
-<section class="appendix" id="upload"><h2>스크린샷 촬영·업로드 안내</h2>
+<section class="appendix" id="upload"><details class="upload-details"><summary>촬영 담당자용 · 스크린샷 파일명 30개</summary><h2>스크린샷 촬영·업로드 안내</h2>
 <div class="panel"><p>저장소 <code>WOOSEOK99/WOOSEOK99.github.io</code>의 <code>main</code> 브랜치 아래 <code>ork/manual_shots/</code> 폴더에 아래 PNG 파일을 올려 주세요. 파일명은 대소문자까지 정확히 맞추면 됩니다.</p><p>촬영 후 GitHub에서 이미지 파일을 업로드하면, 이 HTML을 수정하지 않아도 해당 위치의 그림이 자동으로 나타납니다. 아직 없는 사진은 <strong>스크린샷 준비 중</strong> 표시를 유지합니다.</p><p>게임이 실제로 표시된 화면, 설정 팝업, 연결된 패드 화면 위주로 캡처하고 개인 계정, 이메일, 저장소 경로, 기기 ID 등은 노출되지 않도록 확인하세요.</p></div>
 <div class="manifest-group"><h3>01. 시작하기</h3><div class="manifest-row"><code>01_home.png</code><span>앱 첫 화면</span></div><div class="manifest-row"><code>02_game_list.png</code><span>게임 목록</span></div><div class="manifest-row"><code>03_settings.png</code><span>설정 화면</span></div><div class="manifest-row"><code>04_rom_folder.png</code><span>ROM 폴더 지정</span></div><div class="manifest-row"><code>05_search.png</code><span>게임 검색</span></div><div class="manifest-row"><code>06_favorites.png</code><span>즐겨찾기</span></div></div><div class="manifest-group"><h3>02. 게임 실행과 게임 메뉴</h3><div class="manifest-row"><code>07_gameplay.png</code><span>게임 실행 화면</span></div><div class="manifest-row"><code>08_game_menu.png</code><span>게임 메뉴 호출</span></div><div class="manifest-row"><code>09_save_load.png</code><span>상태 저장과 불러오기</span></div><div class="manifest-row"><code>10_game_options.png</code><span>게임별 설정</span></div><div class="manifest-row"><code>11_game_delete.png</code><span>게임 삭제</span></div></div><div class="manifest-group"><h3>03. 가상 컨트롤러 설정</h3><div class="manifest-row"><code>12_touch_controls.png</code><span>컨트롤 변경 시작</span></div><div class="manifest-row"><code>13_touch_spacing.png</code><span>버튼 간격 조절</span></div><div class="manifest-row"><code>14_touch_options.png</code><span>컨트롤 옵션</span></div><div class="manifest-row"><code>15_touch_edit_mode.png</code><span>편집 모드</span></div><div class="manifest-row"><code>16_touch_button_edit.png</code><span>개별 버튼 수정</span></div><div class="manifest-row"><code>17_touch_macro.png</code><span>매크로 조합 선택</span></div><div class="manifest-row"><code>18_touch_button_count.png</code><span>버튼 개수 변경</span></div></div><div class="manifest-group"><h3>04. 외장 게임패드와 버튼 매핑</h3><div class="manifest-row"><code>19_gamepad_devices.png</code><span>외장 장치 목록</span></div><div class="manifest-row"><code>20_gamepad_mapping.png</code><span>1P / 2P 키 매핑</span></div><div class="manifest-row"><code>21_gamepad_unbind.png</code><span>키 할당과 할당 해제</span></div><div class="manifest-row"><code>22_gamepad_shortcut.png</code><span>가상 버튼 조합</span></div><div class="manifest-row"><code>23_arcade_button_mapping.png</code><span>아케이드 버튼 재할당</span></div></div><div class="manifest-group"><h3>05. 고급 설정과 문제 해결</h3><div class="manifest-row"><code>24_advanced_settings.png</code><span>고급 설정 화면</span></div><div class="manifest-row"><code>25_touch_input_mode.png</code><span>터치 입력 방식 선택</span></div><div class="manifest-row"><code>26_touch_stick.png</code><span>터치 스틱 방식과 데드존</span></div><div class="manifest-row"><code>27_mistouch.png</code><span>오동작 방지</span></div><div class="manifest-row"><code>28_diagnostics.png</code><span>컨트롤러 진단 로그</span></div><div class="manifest-row"><code>29_bios.png</code><span>BIOS 인식 상태</span></div><div class="manifest-row"><code>30_display_settings.png</code><span>화면과 일반 설정</span></div></div>
-</section>
+</details></section>
 <div class="closing">EKLauncher Manual · 작성 중인 검토용 초안 · 촬영되지 않은 화면은 실제 앱 확인 후 보강 예정</div>
-</main></body></html>
+</main>
+<div class="image-viewer" id="image-viewer" role="dialog" aria-modal="true" aria-label="스크린샷 확대 보기" hidden>
+ <span class="viewer-hint">스크린샷 확대 보기</span>
+ <button class="viewer-close" id="viewer-close" type="button" aria-label="확대 보기 닫기">×</button>
+ <img id="viewer-image" alt="">
+</div>
+<script>
+(function(){
+  const viewer=document.getElementById('image-viewer');
+  const viewerImage=document.getElementById('viewer-image');
+  const closeButton=document.getElementById('viewer-close');
+  let lastFocused=null;
+  function closeViewer(){
+    viewer.hidden=true;
+    viewerImage.removeAttribute('src');
+    document.body.classList.remove('viewer-open');
+    if(lastFocused) lastFocused.focus();
+  }
+  document.querySelectorAll('.shot-frame img').forEach(function(img){
+    img.tabIndex=0;
+    img.setAttribute('role','button');
+    img.setAttribute('aria-label',img.alt+' 확대 보기');
+  });
+  document.addEventListener('click',function(event){
+    const img=event.target.closest('.shot-frame img');
+    if(!img || img.hidden || !img.naturalWidth) return;
+    lastFocused=img;
+    viewerImage.src=img.currentSrc||img.src;
+    viewerImage.alt=img.alt;
+    viewer.hidden=false;
+    document.body.classList.add('viewer-open');
+    closeButton.focus();
+  });
+  document.addEventListener('keydown',function(event){
+    if(!viewer.hidden && event.key==='Escape'){closeViewer();return;}
+    if(viewer.hidden && (event.key==='Enter'||event.key===' ')){
+      const el=document.activeElement;
+      if(el && el.matches('.shot-frame img') && !el.hidden && el.naturalWidth){
+        event.preventDefault();
+        el.click();
+      }
+    }
+  });
+  closeButton.addEventListener('click',closeViewer);
+  viewer.addEventListener('click',function(event){if(event.target===viewer)closeViewer();});
+})();
+</script>
+</body></html>
