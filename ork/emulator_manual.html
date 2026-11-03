@@ -89,6 +89,37 @@
             h2 { font-size: 1.15rem; }
             .main-title { font-size: 1.45rem; }
         }
+
+        /* 모바일 설명 이미지: 한 페이지에 한 장, 원본은 수정하지 않음 */
+        .manual-guide { scroll-margin-top: 12px; }
+        .manual-page .img-container { margin: 14px 0 6px; }
+        .manual-page .img-container a { display: block; }
+        .manual-page .img-container img { width: 100%; max-width: 1100px; height: auto; }
+        .image-help { font-size: .82rem; color: #64748b; text-align: center; margin: 0 0 22px; }
+        .explain-row { display: grid; grid-template-columns: minmax(140px, .8fr) minmax(220px, 1fr);
+                       align-items: center; gap: 16px; margin: 14px 0; padding: 14px;
+                       background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; }
+        .image-detail { margin: 0; min-width: 0; }
+        .image-detail canvas { display: block; width: 100%; max-width: 380px; height: auto;
+                               border: 3px solid #e74c3c; border-radius: 7px; background: #eee; box-sizing: border-box; }
+        .image-detail figcaption { color: #9f2929; font-weight: bold; font-size: .85rem; margin-top: 5px; }
+        .explain-text p { margin: 0; font-size: 1.05rem; line-height: 1.7; overflow-wrap: anywhere; word-break: keep-all; }
+        .explain-text p[lang="en"] { margin-top: 7px; color: #555; font-size: .92rem; }
+        .manual-pager { display: none; align-items: center; justify-content: space-between; gap: 8px;
+                        padding: 11px 4px; margin: 8px 0; }
+        .manual-pager button { font-size: .96rem; font-weight: bold; padding: 12px 13px; min-height: 44px;
+                               color: #fff; border: 0; border-radius: 9px; background: #2563eb; cursor: pointer; }
+        .manual-pager button:disabled { background: #cbd5e1; color: #475569; cursor: default; }
+        .pager-state { font-weight: bold; color: #334155; white-space: nowrap; }
+        .manual-ready .manual-pager { display: flex; }
+        .manual-ready .manual-page:not(.is-active) { display: none; }
+        @media (max-width: 600px) {
+            .manual-page { padding: 12px; }
+            .explain-row { grid-template-columns: 1fr; gap: 12px; padding: 12px; }
+            .image-detail canvas { max-width: 100%; }
+            .explain-text p { font-size: 1.05rem; }
+            .manual-pager button { padding: 11px 9px; font-size: .9rem; }
+        }
     </style>
 </head>
 <body>
@@ -111,47 +142,99 @@
         <span style="display:block; color: #555; margin-top: 5px; font-weight: normal; font-size: 0.85rem;">* Note for Joystick Users: Items 3-5 are for smartphone virtual buttons, while 6-7 are for joystick button settings. Please refer only to 6-7 if using a joystick.</span>
     </div>
     
-    <section>
-        <h2>1. 초기 화면 및 기본 인터페이스</h2>
-        <div class="sub-title">Initial Screen and Basic Interface</div>
-        <div class="img-container"><img src="cus_1.jpg" alt="초기 화면"></div>
-    </section>
+    <div class="manual-guide" data-guide="combo">
+        <nav class="manual-pager" aria-label="이미지 단계 이동"><button type="button" data-direction="-1">◀ 이전 그림</button><span class="pager-state" aria-live="polite"></span><button type="button" data-direction="1">다음 그림 ▶</button></nav>
+        <section class="manual-page is-active">
+            <h2>1. 초기 화면 및 기본 인터페이스</h2><div class="sub-title">Initial Screen and Basic Interface</div>
+            <div class="img-container"><a href="cus_1.jpg" target="_blank" rel="noopener noreferrer" title="원본 이미지 확대 보기"><img src="cus_1.jpg" alt="1. 초기 화면 및 기본 인터페이스" loading="lazy"></a></div>
+            <div class="image-help">이미지를 누르면 원본 크기로 확대해 볼 수 있습니다.</div>
+            <div class="explain-row">
+                <figure class="image-detail"><canvas data-crop="50,0,260,115" role="img" aria-label="화면 왼쪽 위 MODE 버튼"></canvas><figcaption>🔎 화면 왼쪽 위 MODE 버튼 확대</figcaption></figure>
+                <div class="explain-text"><p lang="ko">“MODE” 버튼을 길게 눌러 게임 메뉴를 연다.</p><p lang="en">Hold down the MODE button to open the game menu.</p></div>
+            </div>
+        </section>
 
-    <section>
-        <h2>2. 게임 내 설정 메뉴 호출</h2>
-        <div class="sub-title">Accessing In-game Settings Menu</div>
-        <div class="img-container"><img src="cus_2.jpg" alt="설정 메뉴"></div>
-    </section>
-    
-    <section>
-        <h2>3. 컨트롤 편집 모드 진입 및 간격 조절</h2>
-        <div class="sub-title">Entering Edit Mode and Adjusting Spacing</div>
-        <div class="img-container"><img src="cus_3.jpg" alt="편집 및 간격 조절"></div>
-    </section>
+        <section class="manual-page">
+            <h2>2. 게임 내 설정 메뉴 호출</h2><div class="sub-title">Accessing In-game Settings Menu</div>
+            <div class="img-container"><a href="cus_2.jpg" target="_blank" rel="noopener noreferrer" title="원본 이미지 확대 보기"><img src="cus_2.jpg" alt="2. 게임 내 설정 메뉴 호출" loading="lazy"></a></div>
+            <div class="image-help">이미지를 누르면 원본 크기로 확대해 볼 수 있습니다.</div>
+            <div class="explain-row">
+                <figure class="image-detail"><canvas data-crop="725,482,220,110" role="img" aria-label="게임 메뉴의 컨트롤 변경 항목"></canvas><figcaption>🔎 게임 메뉴의 컨트롤 변경 항목 확대</figcaption></figure>
+                <div class="explain-text"><p lang="ko">“컨트롤 변경”을 누른다.</p><p lang="en">Tap “Edit Controls”.</p></div>
+            </div>
+        </section>
 
-    <section>
-        <h2>4. 컨트롤 크기 및 기타 세부 설정</h2>
-        <div class="sub-title">Control Size and Detailed Settings</div>
-        <div class="img-container"><img src="cus_4.jpg" alt="크기 및 세부 설정"></div>
-    </section>
+        <section class="manual-page">
+            <h2>3. 컨트롤 편집 모드 진입 및 간격 조절</h2><div class="sub-title">Entering Edit Mode and Adjusting Spacing</div>
+            <div class="img-container"><a href="cus_3.jpg" target="_blank" rel="noopener noreferrer" title="원본 이미지 확대 보기"><img src="cus_3.jpg" alt="3. 컨트롤 편집 모드 진입 및 간격 조절" loading="lazy"></a></div>
+            <div class="image-help">이미지를 누르면 원본 크기로 확대해 볼 수 있습니다.</div>
+            <div class="explain-row">
+                <figure class="image-detail"><canvas data-crop="382,404,140,76" role="img" aria-label="가상버튼 추가 항목"></canvas><figcaption>🔎 가상버튼 추가 항목 확대</figcaption></figure>
+                <div class="explain-text"><p lang="ko">“가상버튼 추가”를 누른다.</p><p lang="en">Tap “Add Combo Button”.</p></div>
+            </div>
+            <div class="explain-row">
+                <figure class="image-detail"><canvas data-crop="457,279,141,112" role="img" aria-label="새로 생성된 가상 버튼"></canvas><figcaption>🔎 새로 생성된 가상 버튼 확대</figcaption></figure>
+                <div class="explain-text"><p lang="ko">화면 중앙에 가상 버튼이 생성된다.</p><p lang="en">A virtual button is created in the center of the screen.</p></div>
+            </div>
+        </section>
 
-    <section>
-        <h2>5. 버튼 텍스트 수정 및 매크로(동시입력) 설정</h2>
-        <div class="sub-title">Editing Button Text and Macro Settings</div>
-        <div class="img-container"><img src="cus_5.jpg" alt="텍스트 및 매크로"></div>
-    </section>
+        <section class="manual-page">
+            <h2>4. 컨트롤 크기 및 기타 세부 설정</h2><div class="sub-title">Control Size and Detailed Settings</div>
+            <div class="img-container"><a href="cus_4.jpg" target="_blank" rel="noopener noreferrer" title="원본 이미지 확대 보기"><img src="cus_4.jpg" alt="4. 컨트롤 크기 및 기타 세부 설정" loading="lazy"></a></div>
+            <div class="image-help">이미지를 누르면 원본 크기로 확대해 볼 수 있습니다.</div>
+            <div class="explain-row">
+                <figure class="image-detail"><canvas data-crop="577,358,175,133" role="img" aria-label="생성된 가상 버튼"></canvas><figcaption>🔎 생성된 가상 버튼 확대</figcaption></figure>
+                <div class="explain-text"><p lang="ko">생성된 가상 버튼을 길게 눌러 편집한다.</p><p lang="en">Hold down the virtual button to edit.</p></div>
+            </div>
+        </section>
 
-    <section>
-        <h2>6. 버튼 개수 설정 및 기본값 초기화</h2>
-        <div class="sub-title">Setting Button Count and Resetting to Default</div>
-        <div class="img-container"><img src="cus_6.jpg" alt="버튼 개수 설정"></div>
-    </section>
+        <section class="manual-page">
+            <h2>5. 버튼 텍스트 수정 및 매크로(동시입력) 설정</h2><div class="sub-title">Editing Button Text and Macro Settings</div>
+            <div class="img-container"><a href="cus_5.jpg" target="_blank" rel="noopener noreferrer" title="원본 이미지 확대 보기"><img src="cus_5.jpg" alt="5. 버튼 텍스트 수정 및 매크로(동시입력) 설정" loading="lazy"></a></div>
+            <div class="image-help">이미지를 누르면 원본 크기로 확대해 볼 수 있습니다.</div>
+            <div class="explain-row">
+                <figure class="image-detail"><canvas data-crop="510,117,376,121" role="img" aria-label="버튼 텍스트 입력 칸"></canvas><figcaption>🔎 버튼 텍스트 입력 칸 확대</figcaption></figure>
+                <div class="explain-text"><p lang="ko">버튼 이름을 적는다.</p><p lang="en">Enter the name of the button.</p></div>
+            </div>
+            <div class="explain-row">
+                <figure class="image-detail"><canvas data-crop="507,241,381,296" role="img" aria-label="매크로 조합 선택 영역"></canvas><figcaption>🔎 매크로 조합 선택 영역 확대</figcaption></figure>
+                <div class="explain-text"><p lang="ko">동시에 누를 버튼을 선택한다.</p><p lang="en">Select the buttons to press simultaneously.</p></div>
+            </div>
+        </section>
 
-    <section>
-        <h2>7. 버튼 색상 및 최종 저장</h2>
-        <div class="sub-title">Button Color and Saving Final Macro</div>
-        <div class="img-container"><img src="cus_7.jpg" alt="색상 설정"></div>
-    </section>
+        <section class="manual-page">
+            <h2>6. 버튼 개수 설정 및 기본값 초기화</h2><div class="sub-title">Setting Button Count and Resetting to Default</div>
+            <div class="img-container"><a href="cus_6.jpg" target="_blank" rel="noopener noreferrer" title="원본 이미지 확대 보기"><img src="cus_6.jpg" alt="6. 버튼 개수 설정 및 기본값 초기화" loading="lazy"></a></div>
+            <div class="image-help">이미지를 누르면 원본 크기로 확대해 볼 수 있습니다.</div>
+            <div class="explain-row">
+                <figure class="image-detail"><canvas data-crop="495,312,374,208" role="img" aria-label="버튼 갯수 변경 영역"></canvas><figcaption>🔎 버튼 갯수 변경 영역 확대</figcaption></figure>
+                <div class="explain-text"><p lang="ko">사무라이 쇼다운 같은 4버튼 게임의 경우, 설정을 6버튼 모드로 변경하세요. 이렇게 하면 사용하지 않는 버튼에 콤보(예: 강펀치를 위한 A+B)를 할당할 수 있습니다.</p><p lang="en">For 4-button games like Samurai Shodown, change the settings to 6-button mode. This allows you to assign a combo (like A+B for a Heavy Punch) to an unused button.</p></div>
+            </div>
+            <div class="explain-row">
+                <figure class="image-detail"><canvas data-crop="499,322,361,174" role="img" aria-label="2·4·6 버튼 선택 메뉴"></canvas><figcaption>🔎 2·4·6 버튼 선택 메뉴 확대</figcaption></figure>
+                <div class="explain-text"><p lang="ko">실제 게임 버튼 변경</p><p lang="en">Change Real Game Buttons</p></div>
+            </div>
+            <div class="explain-row">
+                <figure class="image-detail"><canvas data-crop="502,374,349,125" role="img" aria-label="버튼 개수 설정 버튼"></canvas><figcaption>🔎 버튼 개수 설정 버튼 확대</figcaption></figure>
+                <div class="explain-text"><p lang="ko">버튼 개수가 바로 업데이트되지 않으면, 버튼을 다시 한번 눌러보세요.</p><p lang="en">If the button count doesn’t update right away, try pressing the button again.</p></div>
+            </div>
+        </section>
+
+        <section class="manual-page">
+            <h2>7. 버튼 색상 및 최종 저장</h2><div class="sub-title">Button Color and Saving Final Macro</div>
+            <div class="img-container"><a href="cus_7.jpg" target="_blank" rel="noopener noreferrer" title="원본 이미지 확대 보기"><img src="cus_7.jpg" alt="7. 버튼 색상 및 최종 저장" loading="lazy"></a></div>
+            <div class="image-help">이미지를 누르면 원본 크기로 확대해 볼 수 있습니다.</div>
+            <div class="explain-row">
+                <figure class="image-detail"><canvas data-crop="664,306,197,94" role="img" aria-label="X와 Y 매크로 조합 선택"></canvas><figcaption>🔎 X와 Y 매크로 조합 선택 확대</figcaption></figure>
+                <div class="explain-text"><p lang="ko">L1 버튼에 X+Y 할당</p><p lang="en">Assign X+Y to the L1 button.</p></div>
+            </div>
+            <div class="explain-row">
+                <figure class="image-detail"><canvas data-crop="1206,272,136,163" role="img" aria-label="설정 결과 L1 버튼"></canvas><figcaption>🔎 설정 결과 L1 버튼 확대</figcaption></figure>
+                <div class="explain-text"><p lang="ko">L1 버튼에 X+Y 할당</p><p lang="en">Assign X+Y to the L1 button.</p></div>
+            </div>
+        </section>
+        <nav class="manual-pager" aria-label="이미지 단계 이동"><button type="button" data-direction="-1">◀ 이전 그림</button><span class="pager-state" aria-live="polite"></span><button type="button" data-direction="1">다음 그림 ▶</button></nav>
+    </div>
 
     <h1 id="game-deletion" class="section-title">🚀 게임 삭제 방법</h1>
     <p class="sub-title">Game Deletion Method</p>
@@ -161,19 +244,64 @@
         <span style="display:block; color: #555; margin-top: 5px; font-weight: normal; font-size: 0.85rem;">Downloaded games can be deleted.</span>
     </div>
 
-    <section>
-        <div class="img-container"><img src="Game_del.jpg" alt="게임 삭제 화면"></div>
-    </section>
+    <div class="manual-guide" data-guide="deletion">
+        <section class="manual-page is-active">
+            <h2>다운받은 게임 삭제</h2><div class="sub-title">Delete Downloaded Games</div>
+            <div class="img-container"><a href="Game_del.jpg" target="_blank" rel="noopener noreferrer" title="원본 이미지 확대 보기"><img src="Game_del.jpg" alt="다운받은 게임 삭제" loading="lazy"></a></div>
+            <div class="image-help">이미지를 누르면 원본 크기로 확대해 볼 수 있습니다.</div>
+            <div class="explain-row">
+                <figure class="image-detail"><canvas data-crop="0,487,255,46" role="img" aria-label="파일 삭제 메뉴"></canvas><figcaption>🔎 파일 삭제 메뉴 확대</figcaption></figure>
+                <div class="explain-text"><p lang="ko">다운받은 게임 삭제</p></div>
+            </div>
+        </section>
+    </div>
 
     <h1 id="Button-modify" class="section-title">🚀 버튼 수정 방법</h1>
     <p class="sub-title">Button Modification Method</p>
   
-    <section>
-        <div class="img-container"><img src="button_modify0.png" alt="버튼 수정 0"></div>
-        <div class="img-container"><img src="button_modify1.png" alt="버튼 수정 1"></div>
-        <div class="img-container"><img src="button_modify2.png" alt="버튼 수정 2"></div>
-        <div class="img-container"><img src="button_modify3.png" alt="버튼 수정 3"></div>
-    </section>
+    <div class="manual-guide" data-guide="buttons">
+        <nav class="manual-pager" aria-label="이미지 단계 이동"><button type="button" data-direction="-1">◀ 이전 그림</button><span class="pager-state" aria-live="polite"></span><button type="button" data-direction="1">다음 그림 ▶</button></nav>
+        <section class="manual-page is-active">
+            <h2>1. MODE 버튼 누르기</h2><div class="sub-title">Open the Editing Menu</div>
+            <div class="img-container"><a href="button_modify0.png" target="_blank" rel="noopener noreferrer" title="원본 이미지 확대 보기"><img src="button_modify0.png" alt="1. MODE 버튼 누르기" loading="lazy"></a></div>
+            <div class="image-help">이미지를 누르면 원본 크기로 확대해 볼 수 있습니다.</div>
+            <div class="explain-row">
+                <figure class="image-detail"><canvas data-crop="120,526,88,85" role="img" aria-label="화면의 MODE 버튼"></canvas><figcaption>🔎 화면의 MODE 버튼 확대</figcaption></figure>
+                <div class="explain-text"><p lang="ko">“Mode” 버튼을 길게 누른다.</p><p lang="en">Press and hold the “Mode” button.</p></div>
+            </div>
+        </section>
+
+        <section class="manual-page">
+            <h2>2. 수정할 버튼 선택</h2><div class="sub-title">Select the Button</div>
+            <div class="img-container"><a href="button_modify1.png" target="_blank" rel="noopener noreferrer" title="원본 이미지 확대 보기"><img src="button_modify1.png" alt="2. 수정할 버튼 선택" loading="lazy"></a></div>
+            <div class="image-help">이미지를 누르면 원본 크기로 확대해 볼 수 있습니다.</div>
+            <div class="explain-row">
+                <figure class="image-detail"><canvas data-crop="3,523,343,211" role="img" aria-label="편집할 가상 버튼 목록"></canvas><figcaption>🔎 편집할 가상 버튼 목록 확대</figcaption></figure>
+                <div class="explain-text"><p lang="ko">수정하고 싶은 버튼을 길게 누른다.</p><p lang="en">Press and hold the button you want to modify.</p></div>
+            </div>
+        </section>
+
+        <section class="manual-page">
+            <h2>3. 버튼 수정 완료</h2><div class="sub-title">Finish Editing the Button</div>
+            <div class="img-container"><a href="button_modify2.png" target="_blank" rel="noopener noreferrer" title="원본 이미지 확대 보기"><img src="button_modify2.png" alt="3. 버튼 수정 완료" loading="lazy"></a></div>
+            <div class="image-help">이미지를 누르면 원본 크기로 확대해 볼 수 있습니다.</div>
+            <div class="explain-row">
+                <figure class="image-detail"><canvas data-crop="139,574,117,70" role="img" aria-label="수정 완료 버튼"></canvas><figcaption>🔎 수정 완료 버튼 확대</figcaption></figure>
+                <div class="explain-text"><p lang="ko">버튼의 크기, 색상, 위치 등을 수정한 후 “수정 완료”를 누른다.</p><p lang="en">After adjusting the size, color, and position of the button, press “Edit Complete”.</p></div>
+            </div>
+        </section>
+
+        <section class="manual-page">
+            <h2>4. 변경 사항 저장</h2><div class="sub-title">Save Changes</div>
+            <div class="img-container"><a href="button_modify3.png" target="_blank" rel="noopener noreferrer" title="원본 이미지 확대 보기"><img src="button_modify3.png" alt="4. 변경 사항 저장" loading="lazy"></a></div>
+            <div class="image-help">이미지를 누르면 원본 크기로 확대해 볼 수 있습니다.</div>
+            <div class="explain-row">
+                <figure class="image-detail"><canvas data-crop="28,368,92,61" role="img" aria-label="저장후 닫기 버튼"></canvas><figcaption>🔎 저장후 닫기 버튼 확대</figcaption></figure>
+                <div class="explain-text"><p lang="ko">“저장후 닫기”를 눌러 저장한다.</p><p lang="en">Press “Save and Close” to save your changes.</p></div>
+            </div>
+        </section>
+        <nav class="manual-pager" aria-label="이미지 단계 이동"><button type="button" data-direction="-1">◀ 이전 그림</button><span class="pager-state" aria-live="polite"></span><button type="button" data-direction="1">다음 그림 ▶</button></nav>
+    </div>
 
     <h1 id="gamepad-update" class="section-title">🚀 조이스틱(외장 장치) 키 설정 및 편의성 업데이트</h1>
     <p class="sub-title">Gamepad (External Device) Key Configuration & Convenience Update</p>
@@ -242,5 +370,52 @@
         </div>
     </section>
 
+
+    <script>
+    (() => {
+        function drawDetails(page) {
+            const original = page.querySelector('.img-container img');
+            if (!original) return;
+            if (!original.complete || !original.naturalWidth) {
+                original.addEventListener('load', () => drawDetails(page), { once: true });
+                return;
+            }
+            page.querySelectorAll('canvas[data-crop]').forEach(canvas => {
+                if (canvas.dataset.drawn) return;
+                const crop = canvas.dataset.crop.split(',').map(Number);
+                if (crop.length !== 4 || crop.some(v => !Number.isFinite(v))) return;
+                const [x, y, w, h] = crop;
+                if (x < 0 || y < 0 || w <= 0 || h <= 0 || x + w > original.naturalWidth || y + h > original.naturalHeight) return;
+                canvas.width = w;
+                canvas.height = h;
+                const ctx = canvas.getContext('2d');
+                if (ctx) {
+                    ctx.drawImage(original, x, y, w, h, 0, 0, w, h);
+                    canvas.dataset.drawn = 'true';
+                }
+            });
+        }
+        document.querySelectorAll('.manual-guide').forEach(guide => {
+            const pages = Array.from(guide.querySelectorAll('.manual-page'));
+            let index = 0;
+            function showPage(next, scroll) {
+                index = Math.max(0, Math.min(pages.length - 1, next));
+                pages.forEach((page, i) => page.classList.toggle('is-active', i === index));
+                guide.querySelectorAll('.manual-pager').forEach(nav => {
+                    nav.querySelector('.pager-state').textContent = (index + 1) + ' / ' + pages.length;
+                    nav.querySelector('[data-direction="-1"]').disabled = index === 0;
+                    nav.querySelector('[data-direction="1"]').disabled = index === pages.length - 1;
+                });
+                drawDetails(pages[index]);
+                if (scroll) guide.scrollIntoView({ block: 'start', behavior: 'smooth' });
+            }
+            guide.querySelectorAll('button[data-direction]').forEach(button => {
+                button.addEventListener('click', () => showPage(index + Number(button.dataset.direction), true));
+            });
+            showPage(0, false);
+        });
+        document.documentElement.classList.add('manual-ready');
+    })();
+    </script>
 </body>
 </html>
